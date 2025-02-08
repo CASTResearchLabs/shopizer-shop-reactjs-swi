@@ -1,0 +1,66 @@
+{
+  "main facts about source code file [src/components/section-title/SectionTitle.js]": {
+    "00. file [src/components/section-title/SectionTitle.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "SectionTitle.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "SectionTitle.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "HTML Fragment",
+            "elements": [
+              {
+                "name": "SectionTitle_fragment_1",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Initialisation",
+            "elements": [
+              {
+                "name": "SectionTitle.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "SectionTitle",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

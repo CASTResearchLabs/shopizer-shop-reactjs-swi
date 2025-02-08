@@ -1,0 +1,33 @@
+{
+  "main facts about source code file [src/components/header/sub-components/HeaderSocial.js]": {
+    "00. dependencies between elements defined in file [src/components/header/sub-components/HeaderSocial.js]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript Initialisation",
+            "from_name": "HeaderSocial.js",
+            "to_name": "HeaderSocial.js",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "ReactJS Function Component",
+            "from_name": "HeaderSocial",
+            "to_name": "HeaderSocial",
+            "calling_type": "USE"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "React JSX",
+            "from_name": "HeaderSocial",
+            "to_name": "HeaderSocial JSX",
+            "calling_type": "RETURN"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 3
+      }
+    ]
+  }
+}

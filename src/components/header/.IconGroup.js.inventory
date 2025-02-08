@@ -1,0 +1,120 @@
+{
+  "main facts about source code file [src/components/header/IconGroup.js]": {
+    "00. file [src/components/header/IconGroup.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 17,
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "getCart",
+                "signature": ""
+              },
+              {
+                "name": "deleteAllFromCart",
+                "signature": ""
+              },
+              {
+                "name": "setUser",
+                "signature": ""
+              },
+              {
+                "name": "deleteFromCart",
+                "signature": ""
+              },
+              {
+                "name": "mapDispatchToProps",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 6,
+            "type": "JavaScript HttpRequest Get Service",
+            "elements": [
+              {
+                "name": "cart",
+                "signature": ""
+              },
+              {
+                "name": "login",
+                "signature": ""
+              },
+              {
+                "name": "recent-order",
+                "signature": ""
+              },
+              {
+                "name": "my-account",
+                "signature": ""
+              },
+              {
+                "name": "register",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "ReactJS Function Component",
+            "elements": [
+              {
+                "name": "IconGroup",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "IconGroup.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "IconGroup.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "React JSX",
+            "elements": [
+              {
+                "name": "IconGroup JSX",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Initialisation",
+            "elements": [
+              {
+                "name": "IconGroup.js",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

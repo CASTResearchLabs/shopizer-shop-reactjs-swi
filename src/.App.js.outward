@@ -1,0 +1,418 @@
+{
+  "main facts about source code file [src/App.js]": {
+    "00. file [src/App.js] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App JSX",
+                "to_name": "MyAccount",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App",
+                "to_name": "MyAccount",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "src/pages/other/MyAccount.js",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App JSX",
+                "to_name": "OrderConfirm",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App",
+                "to_name": "OrderConfirm",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "src/pages/other/OrderConfirm.js",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App JSX",
+                "to_name": "OrderDetails",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App",
+                "to_name": "OrderDetails",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "src/pages/other/OrderDetails.js",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App JSX",
+                "to_name": "RecentOrder",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App",
+                "to_name": "RecentOrder",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "src/pages/other/RecentOrder.js",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App JSX",
+                "to_name": "ResetPassword",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App",
+                "to_name": "ResetPassword",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "src/pages/other/ResetPassword.js",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App JSX",
+                "to_name": "SearchProduct",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App",
+                "to_name": "SearchProduct",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "src/pages/search-product/SearchProduct.js",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App JSX",
+                "to_name": "Cookie",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App",
+                "to_name": "Cookie",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "src/components/consent/Cookie.js",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App JSX",
+                "to_name": "Loader",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App",
+                "to_name": "Loader",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "src/components/loader/loader.js",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App JSX",
+                "to_name": "ScrollToTop",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App",
+                "to_name": "ScrollToTop",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "src/helpers/scroll-top.js",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App JSX",
+                "to_name": "Category",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App",
+                "to_name": "Category",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "src/pages/category/Category.js",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App JSX",
+                "to_name": "Content",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App",
+                "to_name": "Content",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "src/pages/content/Content.js",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App JSX",
+                "to_name": "Home",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App",
+                "to_name": "Home",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "src/pages/home/Home.js",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App JSX",
+                "to_name": "Cart",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App",
+                "to_name": "Cart",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "src/pages/other/Cart.js",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App JSX",
+                "to_name": "Contact",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App",
+                "to_name": "Contact",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "src/pages/other/Contact.js",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App JSX",
+                "to_name": "ForgotPassword",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App",
+                "to_name": "ForgotPassword",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "src/pages/other/ForgotPassword.js",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App JSX",
+                "to_name": "LoginRegister",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "App",
+                "to_name": "LoginRegister",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "src/pages/other/LoginRegister.js",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "NONAME",
+                "to_name": "setShopizerCartID",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "JavaScript function",
+                "from_name": "App",
+                "to_name": "setShopizerCartID",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "JavaScript Files",
+                "from_name": "App",
+                "to_name": "cartActions.js",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "src/redux/actions/cartActions.js",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "JavaScript function",
+                "from_name": "App JSX",
+                "to_name": "Checkout",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "JavaScript Files",
+                "from_name": "App",
+                "to_name": "Checkout.js",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "src/pages/other/Checkout.js",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "JavaScript function",
+                "from_name": "App JSX",
+                "to_name": "NotFound",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "JavaScript Files",
+                "from_name": "App",
+                "to_name": "NotFound.js",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "src/pages/other/NotFound.js",
+            "nb_calls_between_elements": 2
+          }
+        ],
+        "files_list_comment": "files list is truncated to first 15 items",
+        "nb_files_with_calling_elements": 19
+      }
+    ]
+  }
+}

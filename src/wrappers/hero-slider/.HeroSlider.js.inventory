@@ -1,0 +1,77 @@
+{
+  "main facts about source code file [src/wrappers/hero-slider/HeroSlider.js]": {
+    "00. file [src/wrappers/hero-slider/HeroSlider.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "ReactJS Function Component",
+            "elements": [
+              {
+                "name": "HeroSlider",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "HeroSlider.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "mapStateToProps",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "HeroSlider.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "React JSX",
+            "elements": [
+              {
+                "name": "HeroSlider JSX",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Initialisation",
+            "elements": [
+              {
+                "name": "HeroSlider.js",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

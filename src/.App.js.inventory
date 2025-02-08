@@ -1,0 +1,93 @@
+{
+  "main facts about source code file [src/App.js]": {
+    "00. file [src/App.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "nb_elements": 17,
+            "comment": "elements list is truncated to first 5 items",
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "NONAME",
+                "signature": ""
+              },
+              {
+                "name": "NONAME_16",
+                "signature": ""
+              },
+              {
+                "name": "NONAME_15",
+                "signature": ""
+              },
+              {
+                "name": "NONAME_14",
+                "signature": ""
+              },
+              {
+                "name": "NONAME_13",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 2,
+            "comment": "",
+            "type": "ReactJS Function Component",
+            "elements": [
+              {
+                "name": "App",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "",
+            "elements": [
+              {
+                "name": "App.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "App.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "React JSX",
+            "elements": [
+              {
+                "name": "App JSX",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "JavaScript Initialisation",
+            "elements": [
+              {
+                "name": "App.js",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

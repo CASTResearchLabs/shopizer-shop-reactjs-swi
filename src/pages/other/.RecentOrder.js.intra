@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [src/pages/other/RecentOrder.js]": {
+    "00. dependencies between elements defined in file [src/pages/other/RecentOrder.js]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "NONAME_2",
+            "to_name": "onClickItem",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "NONAME",
+            "to_name": "onClickItem",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "NONAME_2",
+            "to_name": "NONAME_2",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "NONAME_2",
+            "to_name": "NONAME",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript HttpRequest Get Service",
+            "from_name": "NONAME_2",
+            "to_name": "product/{}",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "NONAME",
+            "to_name": "getOrder",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "JavaScript function",
+            "from_name": "RecentOrder",
+            "to_name": "getOrder",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "JavaScript function",
+            "from_name": "RecentOrder",
+            "to_name": "NONAME",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "JavaScript HttpRequest Get Service",
+            "from_name": "RecentOrder",
+            "to_name": "{}",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "JavaScript HttpRequest Get Service",
+            "from_name": "RecentOrder",
+            "to_name": "product/{}",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "React JSX",
+            "from_name": "RecentOrder",
+            "to_name": "RecentOrder JSX",
+            "calling_type": "RETURN"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "RecentOrder.js",
+            "to_name": "mapDispatchToProps",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "RecentOrder.js",
+            "to_name": "mapStateToProps",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "ReactJS Function Component",
+            "from_name": "RecentOrder.js",
+            "to_name": "RecentOrder",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript Initialisation",
+            "from_name": "RecentOrder.js",
+            "to_name": "RecentOrder.js",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "calls_between_elements list is truncated to first 15 items",
+        "nb_calls_between_elements": 29
+      }
+    ]
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "main facts about source code file [src/util/helper.js]": {
+    "00. source files defining elements dependent on elements defined in file [src/util/helper.js]": [
+      {
+        "files": [
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              },
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 3
+              },
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 2
+              }
+            ],
+            "from_file": "src/pages/other/LoginRegister.js",
+            "comment": "calling_types list is truncated to first 5 items",
+            "nb_calls_between_elements": 10
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              },
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 2
+              },
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 3
+              }
+            ],
+            "from_file": "src/components/header/IconGroup.js",
+            "comment": "calling_types list is truncated to first 5 items",
+            "nb_calls_between_elements": 9
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/redux/actions/cartActions.js",
+            "comment": "",
+            "nb_calls_between_elements": 4
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/pages/other/Checkout.js",
+            "comment": "",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/pages/other/MyAccount.js",
+            "comment": "",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/pages/other/OrderConfirm.js",
+            "comment": "",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/pages/other/OrderDetails.js",
+            "comment": "",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/pages/other/RecentOrder.js",
+            "comment": "",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/redux/reducers/cartReducer.js",
+            "comment": "",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/util/webService.js",
+            "comment": "",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/wrappers/product/ProductGrid.js",
+            "comment": "",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/wrappers/product/ProductgridList.js",
+            "comment": "",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/components/header/sub-components/MenuCart.js",
+            "comment": "",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/pages/other/Cart.js",
+            "comment": "",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/components/product/ProductDescriptionInfo.js",
+            "comment": "",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/pages/category/Category.js",
+            "comment": "",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/pages/content/Content.js",
+            "comment": "",
+            "nb_calls_between_elements": 2
+          }
+        ],
+        "files_list_comment": "files list is truncated to first 15 items",
+        "nb_files_with_calling_elements": 17
+      }
+    ]
+  }
+}

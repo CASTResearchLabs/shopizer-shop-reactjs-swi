@@ -1,0 +1,26 @@
+{
+  "main facts about source code file [src/util/helper.js]": {
+    "00. dependencies between elements defined in file [src/util/helper.js]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "getValueFromObject",
+            "to_name": "hasProperty",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "getValueFromObject",
+            "to_name": "isValidValue",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 2
+      }
+    ]
+  }
+}

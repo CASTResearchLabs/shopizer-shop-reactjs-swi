@@ -1,0 +1,101 @@
+{
+  "main facts about source code file [src/components/product/ProductModal.js]": {
+    "00. file [src/components/product/ProductModal.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 33,
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "setLoader",
+                "signature": ""
+              },
+              {
+                "name": "mapDispatchToProps",
+                "signature": ""
+              },
+              {
+                "name": "mapStateToProps",
+                "signature": ""
+              },
+              {
+                "name": "defaultImage",
+                "signature": ""
+              },
+              {
+                "name": "NONAME",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "React JSX",
+            "elements": [
+              {
+                "name": "ProductModal JSX",
+                "signature": ""
+              },
+              {
+                "name": "renderNextButton JSX",
+                "signature": ""
+              },
+              {
+                "name": "renderPrevButton JSX",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "ReactJS Function Component",
+            "elements": [
+              {
+                "name": "ProductModal",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "ProductModal.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "ProductModal.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Initialisation",
+            "elements": [
+              {
+                "name": "ProductModal.js",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "main facts about source code file [public/index.html]": {
+    "00. file [public/index.html] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "JavaScript HttpRequest Get Service",
+            "elements": [
+              {
+                "name": "%PUBLIC_URL%/manifest.json",
+                "signature": ""
+              },
+              {
+                "name": "%PUBLIC_URL%/favicon.ico",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "index.html",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "HTML Pages",
+            "elements": [
+              {
+                "name": "index.html",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

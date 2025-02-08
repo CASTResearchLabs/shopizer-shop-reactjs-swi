@@ -1,0 +1,124 @@
+{
+  "main facts about source code file [src/wrappers/product/TabProduct.js]": {
+    "00. file [src/wrappers/product/TabProduct.js] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript function",
+                "to_type": "ReactJS Function Component",
+                "from_name": "NONAME_3",
+                "to_name": "ProductGrid",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "TabProduct",
+                "to_name": "ProductGrid",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "TabProduct JSX",
+                "to_name": "ProductGrid",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 4,
+            "to_file": "src/wrappers/product/ProductGrid.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript Method",
+                "from_name": "getProductList",
+                "to_name": "get",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript HttpRequest Get Service",
+                "from_name": "getProductList",
+                "to_name": "products/group/FEATURED_ITEM",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "JavaScript Files",
+                "from_name": "TabProduct",
+                "to_name": "webService.js",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "JavaScript HttpRequest Get Service",
+                "from_name": "TabProduct",
+                "to_name": "products/group/FEATURED_ITEM",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 4,
+            "to_file": "src/util/webService.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "setLoader",
+                "to_name": "NONAME",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "setLoader",
+                "to_name": "setLoader",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "mapDispatchToProps",
+                "to_name": "setLoader",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "src/redux/actions/loaderActions.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "JavaScript Files",
+                "from_name": "TabProduct",
+                "to_name": "SectionTitle.js",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "React JSX",
+                "to_type": "JavaScript function",
+                "from_name": "TabProduct JSX",
+                "to_name": "SectionTitle",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "src/components/section-title/SectionTitle.js"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 4
+      }
+    ]
+  }
+}

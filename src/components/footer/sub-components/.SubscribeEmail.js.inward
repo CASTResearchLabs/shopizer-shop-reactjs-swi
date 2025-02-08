@@ -1,0 +1,27 @@
+{
+  "main facts about source code file [src/components/footer/sub-components/SubscribeEmail.js]": {
+    "00. source files defining elements dependent on elements defined in file [src/components/footer/sub-components/SubscribeEmail.js]": [
+      {
+        "files": [
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 2
+              },
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/components/footer/FooterNewsletter.js",
+            "comment": "",
+            "nb_calls_between_elements": 3
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 1
+      }
+    ]
+  }
+}

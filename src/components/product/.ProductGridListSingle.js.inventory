@@ -1,0 +1,104 @@
+{
+  "main facts about source code file [src/components/product/ProductGridListSingle.js]": {
+    "00. file [src/components/product/ProductGridListSingle.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 14,
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "setProductID",
+                "signature": ""
+              },
+              {
+                "name": "mapDispatchToProps",
+                "signature": ""
+              },
+              {
+                "name": "mapStateToProps",
+                "signature": ""
+              },
+              {
+                "name": "defaultImage",
+                "signature": ""
+              },
+              {
+                "name": "NONAME_9",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 5,
+            "type": "JavaScript HttpRequest Get Service",
+            "elements": [
+              {
+                "name": "product/{}",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "ReactJS Function Component",
+            "elements": [
+              {
+                "name": "ProductGridListSingle",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "ProductGridListSingle.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "ProductGridListSingle.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "React JSX",
+            "elements": [
+              {
+                "name": "ProductGridListSingle JSX",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Initialisation",
+            "elements": [
+              {
+                "name": "ProductGridListSingle.js",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

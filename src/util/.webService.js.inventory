@@ -1,0 +1,189 @@
+{
+  "main facts about source code file [src/util/webService.js]": {
+    "00. file [src/util/webService.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 30,
+            "type": "JavaScript HttpRequest Get Service",
+            "elements": [
+              {
+                "name": "content/boxes/headerMessage",
+                "signature": ""
+              },
+              {
+                "name": "category/{}/variants",
+                "signature": ""
+              },
+              {
+                "name": "zones",
+                "signature": ""
+              },
+              {
+                "name": "category/{}/manufacturers",
+                "signature": ""
+              },
+              {
+                "name": "category/{}",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 18,
+            "type": "JavaScript HttpRequest Post Service",
+            "elements": [
+              {
+                "name": "auth/customer",
+                "signature": ""
+              },
+              {
+                "name": "auth/customer/address",
+                "signature": ""
+              },
+              {
+                "name": "newsletter",
+                "signature": ""
+              },
+              {
+                "name": "product/{}/price",
+                "signature": ""
+              },
+              {
+                "name": "cart/{}/promo/{}",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 5,
+            "type": "JavaScript Method",
+            "elements": [
+              {
+                "name": "patch",
+                "signature": ""
+              },
+              {
+                "name": "delete",
+                "signature": ""
+              },
+              {
+                "name": "get",
+                "signature": ""
+              },
+              {
+                "name": "put",
+                "signature": ""
+              },
+              {
+                "name": "post",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 4,
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "NONAME_4",
+                "signature": ""
+              },
+              {
+                "name": "NONAME_3",
+                "signature": ""
+              },
+              {
+                "name": "NONAME_2",
+                "signature": ""
+              },
+              {
+                "name": "NONAME",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "JavaScript HttpRequest Delete Service",
+            "elements": [
+              {
+                "name": "auth/customer",
+                "signature": ""
+              },
+              {
+                "name": "cart/{}/product/{}",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "JavaScript HttpRequest Put Service",
+            "elements": [
+              {
+                "name": "cart",
+                "signature": ""
+              },
+              {
+                "name": "cart/{}",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "webService.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Class",
+            "elements": [
+              {
+                "name": "WebService",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "webService.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Initialisation",
+            "elements": [
+              {
+                "name": "webService.js",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

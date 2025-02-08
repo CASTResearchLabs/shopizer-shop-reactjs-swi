@@ -1,0 +1,108 @@
+{
+  "main facts about source code file [src/pages/other/RecentOrder.js]": {
+    "00. file [src/pages/other/RecentOrder.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 13,
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "setProductID",
+                "signature": ""
+              },
+              {
+                "name": "setLoader",
+                "signature": ""
+              },
+              {
+                "name": "mapDispatchToProps",
+                "signature": ""
+              },
+              {
+                "name": "mapStateToProps",
+                "signature": ""
+              },
+              {
+                "name": "NONAME_3",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "JavaScript HttpRequest Get Service",
+            "elements": [
+              {
+                "name": "{}",
+                "signature": ""
+              },
+              {
+                "name": "product/{}",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "ReactJS Function Component",
+            "elements": [
+              {
+                "name": "RecentOrder",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "RecentOrder.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "RecentOrder.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "React JSX",
+            "elements": [
+              {
+                "name": "RecentOrder JSX",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Initialisation",
+            "elements": [
+              {
+                "name": "RecentOrder.js",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

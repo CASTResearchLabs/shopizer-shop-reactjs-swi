@@ -1,0 +1,237 @@
+{
+  "main facts about source code file [src/layouts/Layout.js]": {
+    "00. source files defining elements dependent on elements defined in file [src/layouts/Layout.js]": [
+      {
+        "files": [
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              },
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 2
+              }
+            ],
+            "from_file": "src/pages/other/MyAccount.js",
+            "comment": "",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              },
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 2
+              }
+            ],
+            "from_file": "src/pages/other/OrderConfirm.js",
+            "comment": "",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              },
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 2
+              }
+            ],
+            "from_file": "src/pages/other/OrderDetails.js",
+            "comment": "",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              },
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 2
+              }
+            ],
+            "from_file": "src/pages/other/RecentOrder.js",
+            "comment": "",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              },
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 2
+              }
+            ],
+            "from_file": "src/pages/other/ResetPassword.js",
+            "comment": "",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              },
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 2
+              }
+            ],
+            "from_file": "src/pages/product-details/ProductDetail.js",
+            "comment": "",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              },
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 2
+              }
+            ],
+            "from_file": "src/pages/search-product/SearchProduct.js",
+            "comment": "",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              },
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 2
+              }
+            ],
+            "from_file": "src/pages/other/NotFound.js",
+            "comment": "",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 2
+              },
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/pages/category/Category.js",
+            "comment": "",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 2
+              },
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/pages/content/Content.js",
+            "comment": "",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 2
+              },
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/pages/home/Home.js",
+            "comment": "",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 2
+              },
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/pages/other/Cart.js",
+            "comment": "",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 2
+              },
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/pages/other/ForgotPassword.js",
+            "comment": "",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 2
+              },
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/pages/other/LoginRegister.js",
+            "comment": "",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 2
+              },
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/pages/other/Contact.js",
+            "comment": "",
+            "nb_calls_between_elements": 3
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 15
+      }
+    ]
+  }
+}

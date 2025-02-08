@@ -1,0 +1,250 @@
+{
+  "main facts about source code file [src/pages/other/LoginRegister.js]": {
+    "00. file [src/pages/other/LoginRegister.js] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "getState",
+                "to_name": "NONAME",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "getState",
+                "to_name": "getState",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "getShippingCountry",
+                "to_name": "NONAME",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "getShippingCountry",
+                "to_name": "getShippingCountry",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "getCountry",
+                "to_name": "NONAME",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "nb_calls_between_elements": 12,
+            "to_file": "src/redux/actions/userAction.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "JavaScript function",
+                "from_name": "LoginRegister JSX",
+                "to_name": "setLocalData",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "NONAME_2",
+                "to_name": "setLocalData",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "onRegister",
+                "to_name": "setLocalData",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "getCartandAdd",
+                "to_name": "getLocalData",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "onSubmit",
+                "to_name": "isValidObject",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "nb_calls_between_elements": 10,
+            "to_file": "src/util/helper.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript HttpRequest Post Service",
+                "from_name": "onRegister",
+                "to_name": "customer/register",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript Method",
+                "from_name": "onRegister",
+                "to_name": "post",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript Method",
+                "from_name": "getCartandAdd",
+                "to_name": "get",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript HttpRequest Get Service",
+                "from_name": "getCartandAdd",
+                "to_name": "auth/customer/cart",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript HttpRequest Post Service",
+                "from_name": "onSubmit",
+                "to_name": "customer/login",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "nb_calls_between_elements": 10,
+            "to_file": "src/util/webService.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "getCart",
+                "to_name": "NONAME",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "getCart",
+                "to_name": "getCart",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "addToCart",
+                "to_name": "NONAME",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "addToCart",
+                "to_name": "addToCart",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "mapDispatchToProps",
+                "to_name": "getCart",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "nb_calls_between_elements": 6,
+            "to_file": "src/redux/actions/cartActions.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "LoginRegister JSX",
+                "to_name": "Breadcrumb",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "LoginRegister",
+                "to_name": "Breadcrumb",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "src/wrappers/breadcrumb/Breadcrumb.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "LoginRegister JSX",
+                "to_name": "Layout",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "LoginRegister",
+                "to_name": "Layout",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "src/layouts/Layout.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "setLoader",
+                "to_name": "NONAME",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "setLoader",
+                "to_name": "setLoader",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "mapDispatchToProps",
+                "to_name": "setLoader",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "src/redux/actions/loaderActions.js"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 7
+      }
+    ]
+  }
+}

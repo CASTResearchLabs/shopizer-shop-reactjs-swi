@@ -1,0 +1,54 @@
+{
+  "main facts about source code file [src/pages/other/NotFound.js]": {
+    "00. dependencies between elements defined in file [src/pages/other/NotFound.js]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "JavaScript function",
+            "to_type": "HTML Fragment",
+            "from_name": "NotFound",
+            "to_name": "NotFound_fragment_1",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "NotFound.js",
+            "to_name": "NotFound",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript HttpRequest Get Service",
+            "from_name": "NotFound.js",
+            "to_name": "{}",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript Initialisation",
+            "from_name": "NotFound.js",
+            "to_name": "NotFound.js",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "HTML Fragment",
+            "to_type": "JavaScript HttpRequest Get Service",
+            "from_name": "NotFound_fragment_1",
+            "to_name": "{}",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Initialisation",
+            "to_type": "JavaScript function",
+            "from_name": "NotFound.js",
+            "to_name": "NotFound",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 6
+      }
+    ]
+  }
+}

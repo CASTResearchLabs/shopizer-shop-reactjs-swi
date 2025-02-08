@@ -1,0 +1,93 @@
+{
+  "main facts about source code file [src/wrappers/header/Header.js]": {
+    "00. file [src/wrappers/header/Header.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 10,
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "getCurrentLocation",
+                "signature": ""
+              },
+              {
+                "name": "setMerchant",
+                "signature": ""
+              },
+              {
+                "name": "mapDispatchToProps",
+                "signature": ""
+              },
+              {
+                "name": "mapStateToProps",
+                "signature": ""
+              },
+              {
+                "name": "handleScroll",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "ReactJS Function Component",
+            "elements": [
+              {
+                "name": "Header",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "Header.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "Header.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "React JSX",
+            "elements": [
+              {
+                "name": "Header JSX",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Initialisation",
+            "elements": [
+              {
+                "name": "Header.js",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

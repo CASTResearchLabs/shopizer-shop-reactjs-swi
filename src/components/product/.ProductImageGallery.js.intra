@@ -1,0 +1,75 @@
+{
+  "main facts about source code file [src/components/product/ProductImageGallery.js]": {
+    "00. dependencies between elements defined in file [src/components/product/ProductImageGallery.js]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript Initialisation",
+            "from_name": "ProductImageGallery.js",
+            "to_name": "ProductImageGallery.js",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "ReactJS Function Component",
+            "from_name": "ProductImageGallery",
+            "to_name": "ProductImageGallery",
+            "calling_type": "USE"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductImageGallery JSX",
+            "to_name": "NONAME_3",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductImageGallery JSX",
+            "to_name": "NONAME_2",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "NONAME_3",
+            "to_name": "NONAME",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "React JSX",
+            "from_name": "renderNextButton",
+            "to_name": "renderNextButton JSX",
+            "calling_type": "RETURN"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "React JSX",
+            "from_name": "renderPrevButton",
+            "to_name": "renderPrevButton JSX",
+            "calling_type": "RETURN"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "React JSX",
+            "from_name": "ProductImageGallery",
+            "to_name": "ProductImageGallery JSX",
+            "calling_type": "RETURN"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "JavaScript function",
+            "from_name": "ProductImageGallery",
+            "to_name": "NONAME",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 9
+      }
+    ]
+  }
+}

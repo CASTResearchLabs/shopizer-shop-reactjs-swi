@@ -1,0 +1,74 @@
+{
+  "main facts about source code file [src/components/contact/LocationMap.js]": {
+    "00. file [src/components/contact/LocationMap.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "geocoder_geocode_PARAM_2",
+                "signature": ""
+              },
+              {
+                "name": "handleScriptLoad",
+                "signature": ""
+              },
+              {
+                "name": "FooterMap",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "LocationMap.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "LocationMap.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "HTML Fragment",
+            "elements": [
+              {
+                "name": "FooterMap_fragment_1",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Initialisation",
+            "elements": [
+              {
+                "name": "LocationMap.js",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

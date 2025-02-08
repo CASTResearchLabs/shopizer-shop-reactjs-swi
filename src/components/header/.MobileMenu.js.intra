@@ -1,0 +1,96 @@
+{
+  "main facts about source code file [src/components/header/MobileMenu.js]": {
+    "00. dependencies between elements defined in file [src/components/header/MobileMenu.js]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript Initialisation",
+            "from_name": "MobileMenu.js",
+            "to_name": "MobileMenu.js",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "ReactJS Function Component",
+            "from_name": "MobileMenu",
+            "to_name": "MobileMenu",
+            "calling_type": "USE"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "MobileMenu JSX",
+            "to_name": "NONAME_2",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "MobileMenu JSX",
+            "to_name": "closeMobileMenu",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "NONAME_2",
+            "to_name": "closeMobileMenu",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "NONAME",
+            "to_name": "sideMenuExpand",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "NONAME",
+            "to_name": "NONAME_2",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "NONAME",
+            "to_name": "NONAME",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "React JSX",
+            "from_name": "MobileMenu",
+            "to_name": "MobileMenu JSX",
+            "calling_type": "RETURN"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "JavaScript function",
+            "from_name": "MobileMenu",
+            "to_name": "closeMobileMenu",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "JavaScript function",
+            "from_name": "MobileMenu",
+            "to_name": "sideMenuExpand",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "JavaScript function",
+            "from_name": "MobileMenu",
+            "to_name": "NONAME",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 13
+      }
+    ]
+  }
+}

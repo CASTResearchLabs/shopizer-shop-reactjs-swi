@@ -1,0 +1,66 @@
+{
+  "main facts about source code file [src/components/hero-slider/HeroSliderSingle.js]": {
+    "00. file [src/components/hero-slider/HeroSliderSingle.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "HeroSliderSingle.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "HeroSliderSingle.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "HTML Fragment",
+            "elements": [
+              {
+                "name": "HeroSliderFifteenSingle_fragment_1",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Initialisation",
+            "elements": [
+              {
+                "name": "HeroSliderSingle.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "HeroSliderFifteenSingle",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

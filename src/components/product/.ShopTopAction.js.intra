@@ -1,0 +1,54 @@
+{
+  "main facts about source code file [src/components/product/ShopTopAction.js]": {
+    "00. dependencies between elements defined in file [src/components/product/ShopTopAction.js]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript Initialisation",
+            "from_name": "ShopTopAction.js",
+            "to_name": "ShopTopAction.js",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "ReactJS Function Component",
+            "from_name": "ShopTopAction",
+            "to_name": "ShopTopAction",
+            "calling_type": "USE"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ShopTopAction JSX",
+            "to_name": "NONAME_3",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ShopTopAction JSX",
+            "to_name": "NONAME_2",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ShopTopAction JSX",
+            "to_name": "NONAME",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "React JSX",
+            "from_name": "ShopTopAction",
+            "to_name": "ShopTopAction JSX",
+            "calling_type": "RETURN"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 6
+      }
+    ]
+  }
+}

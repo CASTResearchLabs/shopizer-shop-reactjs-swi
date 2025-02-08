@@ -1,0 +1,54 @@
+{
+  "main facts about source code file [src/components/header/OffcanvasMenu.js]": {
+    "00. dependencies between elements defined in file [src/components/header/OffcanvasMenu.js]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript Initialisation",
+            "from_name": "OffcanvasMenu.js",
+            "to_name": "OffcanvasMenu.js",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "ReactJS Function Component",
+            "from_name": "OffcanvasMenu",
+            "to_name": "OffcanvasMenu",
+            "calling_type": "USE"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript HttpRequest Get Service",
+            "from_name": "OffcanvasMenu JSX",
+            "to_name": "{}",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "OffcanvasMenu JSX",
+            "to_name": "NONAME",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "JavaScript HttpRequest Get Service",
+            "from_name": "OffcanvasMenu",
+            "to_name": "{}",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "React JSX",
+            "from_name": "OffcanvasMenu",
+            "to_name": "OffcanvasMenu JSX",
+            "calling_type": "RETURN"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 6
+      }
+    ]
+  }
+}

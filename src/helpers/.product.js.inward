@@ -1,0 +1,49 @@
+{
+  "main facts about source code file [src/helpers/product.js]": {
+    "00. source files defining elements dependent on elements defined in file [src/helpers/product.js]": [
+      {
+        "files": [
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              },
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 5
+              }
+            ],
+            "from_file": "src/components/product/ShopTopFilter.js",
+            "comment": "calling_types list is truncated to first 5 items",
+            "nb_calls_between_elements": 10
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/components/product/ShopTopAction.js",
+            "comment": "",
+            "nb_calls_between_elements": 5
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/components/product/ShopTag.js",
+            "comment": "",
+            "nb_calls_between_elements": 3
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 3
+      }
+    ]
+  }
+}

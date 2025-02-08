@@ -1,0 +1,96 @@
+{
+  "main facts about source code file [src/components/product/ShopTopAction.js]": {
+    "00. file [src/components/product/ShopTopAction.js] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "JavaScript function",
+                "from_name": "ShopTopAction JSX",
+                "to_name": "getLayout",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "NONAME_3",
+                "to_name": "getLayout",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "NONAME_2",
+                "to_name": "getLayout",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "NONAME",
+                "to_name": "getLayout",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "ShopTopAction",
+                "to_name": "SearchProduct",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "src/pages/search-product/SearchProduct.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "JavaScript function",
+                "from_name": "ShopTopAction JSX",
+                "to_name": "setActiveLayout",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "NONAME_3",
+                "to_name": "setActiveLayout",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "NONAME_2",
+                "to_name": "setActiveLayout",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "NONAME",
+                "to_name": "setActiveLayout",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "JavaScript Files",
+                "from_name": "ShopTopAction",
+                "to_name": "product.js",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "src/helpers/product.js"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 2
+      }
+    ]
+  }
+}

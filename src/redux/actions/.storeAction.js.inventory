@@ -1,0 +1,52 @@
+{
+  "main facts about source code file [src/redux/actions/storeAction.js]": {
+    "00. file [src/redux/actions/storeAction.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 4,
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "NONAME",
+                "signature": ""
+              },
+              {
+                "name": "setStore",
+                "signature": ""
+              },
+              {
+                "name": "setMerchant",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "storeAction.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "storeAction.js",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

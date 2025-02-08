@@ -1,0 +1,33 @@
+{
+  "main facts about source code file [src/wrappers/newsletter/Newsletter.js]": {
+    "00. file [src/wrappers/newsletter/Newsletter.js] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript Files",
+                "to_type": "ReactJS Function Component",
+                "from_name": "Newsletter.js",
+                "to_name": "SubscribeEmailTwo",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Fragment",
+                "to_type": "ReactJS Function Component",
+                "from_name": "NewsletterThree_fragment_1",
+                "to_name": "SubscribeEmailTwo",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "src/components/newsletter/SubscribeEmail.js"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 1
+      }
+    ]
+  }
+}

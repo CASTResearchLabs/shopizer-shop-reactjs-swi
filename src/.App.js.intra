@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [src/App.js]": {
+    "00. dependencies between elements defined in file [src/App.js]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "App.js",
+            "to_name": "NONAME",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript Initialisation",
+            "from_name": "App.js",
+            "to_name": "App.js",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "ReactJS Function Component",
+            "from_name": "App.js",
+            "to_name": "App",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "App.js",
+            "to_name": "NONAME_16",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "App.js",
+            "to_name": "NONAME_15",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "App.js",
+            "to_name": "NONAME_14",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "App.js",
+            "to_name": "NONAME_13",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "App.js",
+            "to_name": "NONAME_12",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "App.js",
+            "to_name": "NONAME_11",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "App.js",
+            "to_name": "NONAME_10",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "App.js",
+            "to_name": "NONAME_9",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "App.js",
+            "to_name": "NONAME_8",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "App.js",
+            "to_name": "NONAME_7",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "App.js",
+            "to_name": "NONAME_6",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "App.js",
+            "to_name": "NONAME_5",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "calls_between_elements list is truncated to first 15 items",
+        "nb_calls_between_elements": 38
+      }
+    ]
+  }
+}

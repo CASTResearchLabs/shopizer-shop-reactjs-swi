@@ -1,0 +1,108 @@
+{
+  "main facts about source code file [src/components/header/sub-components/MenuCart.js]": {
+    "00. file [src/components/header/sub-components/MenuCart.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 4,
+            "type": "JavaScript HttpRequest Get Service",
+            "elements": [
+              {
+                "name": "checkout",
+                "signature": ""
+              },
+              {
+                "name": "cart",
+                "signature": ""
+              },
+              {
+                "name": "{}",
+                "signature": ""
+              },
+              {
+                "name": "product/{}",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 4,
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "mapStateToProps",
+                "signature": ""
+              },
+              {
+                "name": "defaultImage",
+                "signature": ""
+              },
+              {
+                "name": "NONAME",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "ReactJS Function Component",
+            "elements": [
+              {
+                "name": "MenuCart",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "MenuCart.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "MenuCart.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "React JSX",
+            "elements": [
+              {
+                "name": "MenuCart JSX",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Initialisation",
+            "elements": [
+              {
+                "name": "MenuCart.js",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

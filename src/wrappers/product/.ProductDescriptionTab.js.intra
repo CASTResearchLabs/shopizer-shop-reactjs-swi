@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [src/wrappers/product/ProductDescriptionTab.js]": {
+    "00. dependencies between elements defined in file [src/wrappers/product/ProductDescriptionTab.js]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "JavaScript function",
+            "from_name": "ProductDescriptionTab",
+            "to_name": "NONAME",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "JavaScript HttpRequest Get Service",
+            "from_name": "ProductDescriptionTab",
+            "to_name": "login",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "React JSX",
+            "from_name": "ProductDescriptionTab",
+            "to_name": "ProductDescriptionTab JSX",
+            "calling_type": "RETURN"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "ProductDescriptionTab.js",
+            "to_name": "mapDispatchToProps",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "ProductDescriptionTab.js",
+            "to_name": "mapStateToProps",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "ReactJS Function Component",
+            "from_name": "ProductDescriptionTab.js",
+            "to_name": "ProductDescriptionTab",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript Initialisation",
+            "from_name": "ProductDescriptionTab.js",
+            "to_name": "ProductDescriptionTab.js",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "ReactJS Function Component",
+            "from_name": "ProductDescriptionTab",
+            "to_name": "ProductDescriptionTab",
+            "calling_type": "USE"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductDescriptionTab JSX",
+            "to_name": "NONAME_6",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductDescriptionTab JSX",
+            "to_name": "NONAME_5",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductDescriptionTab JSX",
+            "to_name": "NONAME_4",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductDescriptionTab JSX",
+            "to_name": "NONAME_3",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductDescriptionTab JSX",
+            "to_name": "NONAME_2",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductDescriptionTab JSX",
+            "to_name": "onClickSubmit",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript HttpRequest Get Service",
+            "from_name": "ProductDescriptionTab JSX",
+            "to_name": "login",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "calls_between_elements list is truncated to first 15 items",
+        "nb_calls_between_elements": 18
+      }
+    ]
+  }
+}

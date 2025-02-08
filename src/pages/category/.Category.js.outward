@@ -1,0 +1,236 @@
+{
+  "main facts about source code file [src/pages/category/Category.js]": {
+    "00. file [src/pages/category/Category.js] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript Method",
+                "from_name": "getVariants",
+                "to_name": "get",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript HttpRequest Get Service",
+                "from_name": "getVariants",
+                "to_name": "category/{}/variants",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript Method",
+                "from_name": "getManufacturers",
+                "to_name": "get",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript HttpRequest Get Service",
+                "from_name": "getManufacturers",
+                "to_name": "category/{}/manufacturers",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript Method",
+                "from_name": "getCategoryDetails",
+                "to_name": "get",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "nb_calls_between_elements": 13,
+            "to_file": "src/util/webService.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "Category JSX",
+                "to_name": "Breadcrumb",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "Category",
+                "to_name": "Breadcrumb",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "src/wrappers/breadcrumb/Breadcrumb.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "Category JSX",
+                "to_name": "ShopProducts",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "Category",
+                "to_name": "ShopProducts",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "src/wrappers/product/ShopProducts.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "Category JSX",
+                "to_name": "ShopSidebar",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "Category",
+                "to_name": "ShopSidebar",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "src/wrappers/product/ShopSidebar.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "Category JSX",
+                "to_name": "ShopTopbar",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "Category",
+                "to_name": "ShopTopbar",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "src/wrappers/product/ShopTopbar.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "Category JSX",
+                "to_name": "Layout",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "Category",
+                "to_name": "Layout",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "src/layouts/Layout.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "setCategoryID",
+                "to_name": "NONAME",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "setCategoryID",
+                "to_name": "setCategoryID",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "mapDispatchToProps",
+                "to_name": "setCategoryID",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "src/redux/actions/productActions.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "setLoader",
+                "to_name": "NONAME",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "setLoader",
+                "to_name": "setLoader",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "mapDispatchToProps",
+                "to_name": "setLoader",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "src/redux/actions/loaderActions.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "getProductList",
+                "to_name": "isCheckValueAndSetParams",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "JavaScript Files",
+                "from_name": "Category",
+                "to_name": "helper.js",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "src/util/helper.js"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 9
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "main facts about source code file [src/wrappers/feature-icon/FeatureIcon.js]": {
+    "00. dependencies between elements defined in file [src/wrappers/feature-icon/FeatureIcon.js]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "React JSX",
+            "from_name": "FeatureIcon",
+            "to_name": "FeatureIcon JSX",
+            "calling_type": "RETURN"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "ReactJS Function Component",
+            "from_name": "FeatureIcon",
+            "to_name": "FeatureIcon",
+            "calling_type": "USE"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript Initialisation",
+            "from_name": "FeatureIcon.js",
+            "to_name": "FeatureIcon.js",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "FeatureIcon JSX",
+            "to_name": "NONAME",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 4
+      }
+    ]
+  }
+}

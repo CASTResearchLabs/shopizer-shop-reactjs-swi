@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [src/components/product/ProductModal.js]": {
+    "00. dependencies between elements defined in file [src/components/product/ProductModal.js]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript Initialisation",
+            "from_name": "ProductModal.js",
+            "to_name": "ProductModal.js",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "ProductModal.js",
+            "to_name": "mapDispatchToProps",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "ProductModal.js",
+            "to_name": "mapStateToProps",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "ReactJS Function Component",
+            "from_name": "ProductModal.js",
+            "to_name": "ProductModal",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "ReactJS Function Component",
+            "from_name": "ProductModal",
+            "to_name": "ProductModal",
+            "calling_type": "USE"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductModal JSX",
+            "to_name": "NONAME_10",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductModal JSX",
+            "to_name": "NONAME_9",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductModal JSX",
+            "to_name": "NONAME_8",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductModal JSX",
+            "to_name": "NONAME_7",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductModal JSX",
+            "to_name": "NONAME_6",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductModal JSX",
+            "to_name": "NONAME_5",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductModal JSX",
+            "to_name": "NONAME_4",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductModal JSX",
+            "to_name": "NONAME_3",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductModal JSX",
+            "to_name": "NONAME_2",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductModal JSX",
+            "to_name": "checkedOrNot",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "calls_between_elements list is truncated to first 15 items",
+        "nb_calls_between_elements": 49
+      }
+    ]
+  }
+}

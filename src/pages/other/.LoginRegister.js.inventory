@@ -1,0 +1,104 @@
+{
+  "main facts about source code file [src/pages/other/LoginRegister.js]": {
+    "00. file [src/pages/other/LoginRegister.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 32,
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "getCart",
+                "signature": ""
+              },
+              {
+                "name": "getState",
+                "signature": ""
+              },
+              {
+                "name": "getShippingCountry",
+                "signature": ""
+              },
+              {
+                "name": "getCountry",
+                "signature": ""
+              },
+              {
+                "name": "setUser",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "ReactJS Function Component",
+            "elements": [
+              {
+                "name": "LoginRegister",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "LoginRegister.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "LoginRegister.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript HttpRequest Get Service",
+            "elements": [
+              {
+                "name": "forgot-password",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "React JSX",
+            "elements": [
+              {
+                "name": "LoginRegister JSX",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Initialisation",
+            "elements": [
+              {
+                "name": "LoginRegister.js",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

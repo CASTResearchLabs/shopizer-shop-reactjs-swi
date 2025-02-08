@@ -1,0 +1,108 @@
+{
+  "main facts about source code file [src/components/product/ProductDescriptionInfo.js]": {
+    "00. file [src/components/product/ProductDescriptionInfo.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 29,
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "NONAME",
+                "signature": ""
+              },
+              {
+                "name": "addToCart",
+                "signature": ""
+              },
+              {
+                "name": "setLoader",
+                "signature": ""
+              },
+              {
+                "name": "mapDispatchToProps",
+                "signature": ""
+              },
+              {
+                "name": "mapStateToProps",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "ReactJS Function Component",
+            "elements": [
+              {
+                "name": "ProductDescriptionInfo",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "JavaScript HttpRequest Get Service",
+            "elements": [
+              {
+                "name": "category/{}",
+                "signature": ""
+              },
+              {
+                "name": "{}",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "ProductDescriptionInfo.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "ProductDescriptionInfo.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "React JSX",
+            "elements": [
+              {
+                "name": "ProductDescriptionInfo JSX",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Initialisation",
+            "elements": [
+              {
+                "name": "ProductDescriptionInfo.js",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "main facts about source code file [src/wrappers/product/ProductImageDescription.js]": {
+    "00. file [src/wrappers/product/ProductImageDescription.js] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "ProductImageDescription",
+                "to_name": "ProductDescriptionInfo",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "ProductImageDescription JSX",
+                "to_name": "ProductDescriptionInfo",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "src/components/product/ProductDescriptionInfo.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "ProductImageDescription",
+                "to_name": "ProductImageGallery",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "ProductImageDescription JSX",
+                "to_name": "ProductImageGallery",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "src/components/product/ProductImageGallery.js"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 2
+      }
+    ]
+  }
+}

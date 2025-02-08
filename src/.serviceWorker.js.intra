@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [src/serviceWorker.js]": {
+    "00. dependencies between elements defined in file [src/serviceWorker.js]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript HttpRequest Get Service",
+            "from_name": "serviceWorker.js",
+            "to_name": "service-worker.js",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "unregister",
+            "to_name": "NONAME",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "NONAME",
+            "to_name": "NONAME",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "NONAME",
+            "to_name": "registerValidSW",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "checkValidServiceWorker",
+            "to_name": "NONAME_2",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "checkValidServiceWorker",
+            "to_name": "NONAME",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "checkValidServiceWorker",
+            "to_name": "registerValidSW",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "registerValidSW",
+            "to_name": "NONAME_2",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "registerValidSW",
+            "to_name": "NONAME",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript HttpRequest Get Service",
+            "from_name": "NONAME",
+            "to_name": "service-worker.js",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "NONAME",
+            "to_name": "checkValidServiceWorker",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript HttpRequest Get Service",
+            "from_name": "register",
+            "to_name": "service-worker.js",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "register",
+            "to_name": "checkValidServiceWorker",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "register",
+            "to_name": "registerValidSW",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "register",
+            "to_name": "NONAME",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "calls_between_elements list is truncated to first 15 items",
+        "nb_calls_between_elements": 18
+      }
+    ]
+  }
+}

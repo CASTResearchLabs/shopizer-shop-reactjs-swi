@@ -1,0 +1,166 @@
+{
+  "main facts about source code file [src/pages/product-details/ProductDetail.js]": {
+    "00. file [src/pages/product-details/ProductDetail.js] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript Method",
+                "from_name": "getReview",
+                "to_name": "get",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript HttpRequest Get Service",
+                "from_name": "getReview",
+                "to_name": "products/{}/reviews",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript Method",
+                "from_name": "getProductDetails",
+                "to_name": "get",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript HttpRequest Get Service",
+                "from_name": "getProductDetails",
+                "to_name": "products/{}",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "JavaScript Files",
+                "from_name": "ProductDetails",
+                "to_name": "webService.js",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "nb_calls_between_elements": 7,
+            "to_file": "src/util/webService.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "setLoader",
+                "to_name": "NONAME",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "setLoader",
+                "to_name": "setLoader",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "mapDispatchToProps",
+                "to_name": "setLoader",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "src/redux/actions/loaderActions.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "ProductDetails",
+                "to_name": "Breadcrumb",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "ProductDetails JSX",
+                "to_name": "Breadcrumb",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "src/wrappers/breadcrumb/Breadcrumb.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "ProductDetails",
+                "to_name": "ProductDescriptionTab",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "ProductDetails JSX",
+                "to_name": "ProductDescriptionTab",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "src/wrappers/product/ProductDescriptionTab.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "ProductDetails",
+                "to_name": "ProductImageDescription",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "ProductDetails JSX",
+                "to_name": "ProductImageDescription",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "src/wrappers/product/ProductImageDescription.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "ProductDetails",
+                "to_name": "Layout",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "ProductDetails JSX",
+                "to_name": "Layout",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "src/layouts/Layout.js"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 6
+      }
+    ]
+  }
+}

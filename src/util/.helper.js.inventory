@@ -1,0 +1,60 @@
+{
+  "main facts about source code file [src/util/helper.js]": {
+    "00. file [src/util/helper.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 8,
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "getValueFromObject",
+                "signature": ""
+              },
+              {
+                "name": "isValidObject",
+                "signature": ""
+              },
+              {
+                "name": "hasProperty",
+                "signature": ""
+              },
+              {
+                "name": "isCheckValueAndSetParams",
+                "signature": ""
+              },
+              {
+                "name": "isValidValue",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "helper.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "helper.js",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

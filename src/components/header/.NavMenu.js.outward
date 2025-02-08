@@ -1,0 +1,68 @@
+{
+  "main facts about source code file [src/components/header/NavMenu.js]": {
+    "00. file [src/components/header/NavMenu.js] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "setContent",
+                "to_name": "NONAME",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "setContent",
+                "to_name": "setContent",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "mapDispatchToProps",
+                "to_name": "setContent",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "src/redux/actions/contentAction.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "setCategoryID",
+                "to_name": "NONAME",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "setCategoryID",
+                "to_name": "setCategoryID",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "mapDispatchToProps",
+                "to_name": "setCategoryID",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "src/redux/actions/productActions.js"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 2
+      }
+    ]
+  }
+}

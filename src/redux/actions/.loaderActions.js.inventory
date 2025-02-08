@@ -1,0 +1,48 @@
+{
+  "main facts about source code file [src/redux/actions/loaderActions.js]": {
+    "00. file [src/redux/actions/loaderActions.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "NONAME",
+                "signature": ""
+              },
+              {
+                "name": "setLoader",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "loaderActions.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "loaderActions.js",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

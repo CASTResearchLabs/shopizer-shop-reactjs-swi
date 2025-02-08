@@ -1,0 +1,47 @@
+{
+  "main facts about source code file [src/components/footer/sub-components/SubscribeEmail.js]": {
+    "00. file [src/components/footer/sub-components/SubscribeEmail.js] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript HttpRequest Post Service",
+                "from_name": "onSubmit",
+                "to_name": "newsletter",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript Method",
+                "from_name": "onSubmit",
+                "to_name": "post",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript HttpRequest Post Service",
+                "from_name": "CustomForm",
+                "to_name": "newsletter",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript Method",
+                "from_name": "CustomForm",
+                "to_name": "post",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 4,
+            "to_file": "src/util/webService.js"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 1
+      }
+    ]
+  }
+}

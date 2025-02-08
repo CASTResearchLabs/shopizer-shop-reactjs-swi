@@ -1,0 +1,54 @@
+{
+  "main facts about source code file [src/components/product/ShopTopFilter.js]": {
+    "00. file [src/components/product/ShopTopFilter.js] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "JavaScript function",
+                "from_name": "ShopTopFilter JSX",
+                "to_name": "setActiveSort",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "NONAME",
+                "to_name": "setActiveSort",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "JavaScript Files",
+                "from_name": "ShopTopFilter",
+                "to_name": "product.js",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "JavaScript function",
+                "from_name": "ShopTopFilter",
+                "to_name": "getIndividualCategories",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "JavaScript function",
+                "from_name": "ShopTopFilter",
+                "to_name": "getProductsIndividualSizes",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "nb_calls_between_elements": 10,
+            "to_file": "src/helpers/product.js"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 1
+      }
+    ]
+  }
+}

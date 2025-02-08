@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [src/pages/other/LoginRegister.js]": {
+    "00. dependencies between elements defined in file [src/pages/other/LoginRegister.js]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript Initialisation",
+            "from_name": "LoginRegister.js",
+            "to_name": "LoginRegister.js",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "LoginRegister.js",
+            "to_name": "mapDispatchToProps",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "LoginRegister.js",
+            "to_name": "mapStateToProps",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "ReactJS Function Component",
+            "from_name": "LoginRegister.js",
+            "to_name": "LoginRegister",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "ReactJS Function Component",
+            "from_name": "LoginRegister",
+            "to_name": "LoginRegister",
+            "calling_type": "USE"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript HttpRequest Get Service",
+            "from_name": "LoginRegister JSX",
+            "to_name": "forgot-password",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "LoginRegister JSX",
+            "to_name": "NONAME_6",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "LoginRegister JSX",
+            "to_name": "NONAME_5",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "LoginRegister JSX",
+            "to_name": "NONAME_4",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "LoginRegister JSX",
+            "to_name": "NONAME_3",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "LoginRegister JSX",
+            "to_name": "NONAME_2",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "LoginRegister JSX",
+            "to_name": "onRegister",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "LoginRegister JSX",
+            "to_name": "onPasswordChange",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "LoginRegister JSX",
+            "to_name": "onConfirmPassword",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "LoginRegister JSX",
+            "to_name": "onSubmit",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "calls_between_elements list is truncated to first 15 items",
+        "nb_calls_between_elements": 36
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "main facts about source code file [src/components/header/HeaderTop.js]": {
+    "00. dependencies between elements defined in file [src/components/header/HeaderTop.js]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript Initialisation",
+            "from_name": "HeaderTop.js",
+            "to_name": "HeaderTop.js",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "ReactJS Function Component",
+            "from_name": "HeaderTop.js",
+            "to_name": "HeaderTop",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "ReactJS Function Component",
+            "from_name": "HeaderTop",
+            "to_name": "HeaderTop",
+            "calling_type": "USE"
+          },
+          {
+            "from_type": "JavaScript Initialisation",
+            "to_type": "ReactJS Function Component",
+            "from_name": "HeaderTop.js",
+            "to_name": "HeaderTop",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "NONAME",
+            "to_name": "getContentMessage",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "React JSX",
+            "from_name": "HeaderTop",
+            "to_name": "HeaderTop JSX",
+            "calling_type": "RETURN"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "JavaScript function",
+            "from_name": "HeaderTop",
+            "to_name": "getContentMessage",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "JavaScript function",
+            "from_name": "HeaderTop",
+            "to_name": "NONAME",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 8
+      }
+    ]
+  }
+}

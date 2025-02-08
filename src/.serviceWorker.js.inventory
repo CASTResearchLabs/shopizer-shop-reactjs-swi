@@ -1,0 +1,71 @@
+{
+  "main facts about source code file [src/serviceWorker.js]": {
+    "00. file [src/serviceWorker.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 15,
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "unregister",
+                "signature": ""
+              },
+              {
+                "name": "NONAME_2",
+                "signature": ""
+              },
+              {
+                "name": "NONAME",
+                "signature": ""
+              },
+              {
+                "name": "checkValidServiceWorker",
+                "signature": ""
+              },
+              {
+                "name": "onstatechange",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "serviceWorker.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "serviceWorker.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript HttpRequest Get Service",
+            "elements": [
+              {
+                "name": "service-worker.js",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

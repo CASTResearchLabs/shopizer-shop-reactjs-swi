@@ -1,0 +1,131 @@
+{
+  "main facts about source code file [src/redux/actions/cartActions.js]": {
+    "00. file [src/redux/actions/cartActions.js] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript HttpRequest Delete Service",
+                "from_name": "NONAME",
+                "to_name": "cart/{}/product/{}",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript Method",
+                "from_name": "NONAME",
+                "to_name": "delete",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript HttpRequest Delete Service",
+                "from_name": "deleteFromCart",
+                "to_name": "cart/{}/product/{}",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript Method",
+                "from_name": "deleteFromCart",
+                "to_name": "delete",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript Method",
+                "from_name": "NONAME",
+                "to_name": "get",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "nb_calls_between_elements": 36,
+            "to_file": "src/util/webService.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "NONAME",
+                "to_name": "NONAME",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "NONAME",
+                "to_name": "setLoader",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "deleteFromCart",
+                "to_name": "NONAME",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "deleteFromCart",
+                "to_name": "setLoader",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "addToCart",
+                "to_name": "NONAME",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "nb_calls_between_elements": 9,
+            "to_file": "src/redux/actions/loaderActions.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "setShopizerCartID",
+                "to_name": "setLocalData",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "NONAME",
+                "to_name": "getLocalData",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "getCart",
+                "to_name": "getLocalData",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript Files",
+                "to_type": "JavaScript Files",
+                "from_name": "cartActions.js",
+                "to_name": "helper.js",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 4,
+            "to_file": "src/util/helper.js"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "main facts about source code file [src/components/header/HeaderTop.js]": {
+    "00. file [src/components/header/HeaderTop.js] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript Method",
+                "from_name": "getContentMessage",
+                "to_name": "get",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript HttpRequest Get Service",
+                "from_name": "getContentMessage",
+                "to_name": "content/boxes/headerMessage",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "JavaScript Files",
+                "from_name": "HeaderTop",
+                "to_name": "webService.js",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "JavaScript HttpRequest Get Service",
+                "from_name": "HeaderTop",
+                "to_name": "content/boxes/headerMessage",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 4,
+            "to_file": "src/util/webService.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "HeaderTop JSX",
+                "to_name": "LanguageCurrencyChanger",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "HeaderTop",
+                "to_name": "LanguageCurrencyChanger",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "src/components/header/sub-components/LanguageCurrencyChanger.js"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "main facts about source code file [src/pages/other/Checkout.js]": {
+    "00. file [src/pages/other/Checkout.js] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript Files",
+                "to_type": "JavaScript HttpRequest Post Service",
+                "from_name": "Checkout.js",
+                "to_name": "cart/{}/checkout",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript Files",
+                "to_type": "JavaScript HttpRequest Post Service",
+                "from_name": "Checkout.js",
+                "to_name": "auth/cart/{}/checkout",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript Files",
+                "to_type": "JavaScript HttpRequest Post Service",
+                "from_name": "Checkout.js",
+                "to_name": "cart/{}/shipping",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript Files",
+                "to_type": "JavaScript Files",
+                "from_name": "Checkout.js",
+                "to_name": "webService.js",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript Files",
+                "to_type": "JavaScript HttpRequest Get Service",
+                "from_name": "Checkout.js",
+                "to_name": "content/boxes/agreement",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "nb_calls_between_elements": 40,
+            "to_file": "src/util/webService.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript Files",
+                "to_type": "JavaScript Files",
+                "from_name": "Checkout.js",
+                "to_name": "helper.js",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "onPayment",
+                "to_name": "setLocalData",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "JavaScript function",
+                "from_name": "Checkout",
+                "to_name": "setLocalData",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "src/util/helper.js"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "main facts about source code file [src/redux/reducers/rootReducer.js]": {
+    "00. dependencies between elements defined in file [src/redux/reducers/rootReducer.js]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript Initialisation",
+            "from_name": "rootReducer.js",
+            "to_name": "rootReducer.js",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 1
+      }
+    ]
+  }
+}

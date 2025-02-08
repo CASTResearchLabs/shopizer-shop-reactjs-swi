@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [src/components/product/ProductGridSingle.js]": {
+    "00. dependencies between elements defined in file [src/components/product/ProductGridSingle.js]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript Initialisation",
+            "from_name": "ProductGridSingle.js",
+            "to_name": "ProductGridSingle.js",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "ProductGridSingle.js",
+            "to_name": "mapDispatchToProps",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "ProductGridSingle.js",
+            "to_name": "mapStateToProps",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "ReactJS Function Component",
+            "from_name": "ProductGridSingle.js",
+            "to_name": "ProductGridSingleTwo",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "ReactJS Function Component",
+            "from_name": "ProductGridSingleTwo",
+            "to_name": "ProductGridSingleTwo",
+            "calling_type": "USE"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript HttpRequest Get Service",
+            "from_name": "ProductGridSingleTwo JSX",
+            "to_name": "product/{}",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductGridSingleTwo JSX",
+            "to_name": "NONAME_6",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductGridSingleTwo JSX",
+            "to_name": "NONAME_5",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductGridSingleTwo JSX",
+            "to_name": "NONAME_4",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductGridSingleTwo JSX",
+            "to_name": "NONAME_3",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductGridSingleTwo JSX",
+            "to_name": "NONAME_2",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductGridSingleTwo JSX",
+            "to_name": "NONAME",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductGridSingleTwo JSX",
+            "to_name": "onClickProductDetails",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Initialisation",
+            "to_type": "JavaScript function",
+            "from_name": "ProductGridSingle.js",
+            "to_name": "mapDispatchToProps",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Initialisation",
+            "to_type": "JavaScript function",
+            "from_name": "ProductGridSingle.js",
+            "to_name": "mapStateToProps",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "calls_between_elements list is truncated to first 15 items",
+        "nb_calls_between_elements": 25
+      }
+    ]
+  }
+}

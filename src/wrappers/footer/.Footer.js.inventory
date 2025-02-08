@@ -1,0 +1,116 @@
+{
+  "main facts about source code file [src/wrappers/footer/Footer.js]": {
+    "00. file [src/wrappers/footer/Footer.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 7,
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "mapDispatchToProps",
+                "signature": ""
+              },
+              {
+                "name": "mapStateToProps",
+                "signature": ""
+              },
+              {
+                "name": "NONAME_2",
+                "signature": ""
+              },
+              {
+                "name": "handleScroll",
+                "signature": ""
+              },
+              {
+                "name": "scrollToTop",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 6,
+            "type": "JavaScript HttpRequest Get Service",
+            "elements": [
+              {
+                "name": "register",
+                "signature": ""
+              },
+              {
+                "name": "login",
+                "signature": ""
+              },
+              {
+                "name": "contact",
+                "signature": ""
+              },
+              {
+                "name": "{}",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "ReactJS Function Component",
+            "elements": [
+              {
+                "name": "Footer",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "Footer.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "Footer.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "React JSX",
+            "elements": [
+              {
+                "name": "Footer JSX",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Initialisation",
+            "elements": [
+              {
+                "name": "Footer.js",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "main facts about source code file [src/components/header/sub-components/MenuCart.js]": {
+    "00. file [src/components/header/sub-components/MenuCart.js] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "React JSX",
+                "to_type": "JavaScript function",
+                "from_name": "MenuCart JSX",
+                "to_name": "isValidObject",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "JavaScript Files",
+                "from_name": "MenuCart",
+                "to_name": "helper.js",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "src/util/helper.js"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 1
+      }
+    ]
+  }
+}

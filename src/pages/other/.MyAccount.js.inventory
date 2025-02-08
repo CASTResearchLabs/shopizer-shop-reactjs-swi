@@ -1,0 +1,93 @@
+{
+  "main facts about source code file [src/pages/other/MyAccount.js]": {
+    "00. file [src/pages/other/MyAccount.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 61,
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "NONAME_3",
+                "signature": ""
+              },
+              {
+                "name": "NONAME",
+                "signature": ""
+              },
+              {
+                "name": "NONAME_2",
+                "signature": ""
+              },
+              {
+                "name": "onDelete",
+                "signature": ""
+              },
+              {
+                "name": "onDeleteConfirm",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "ReactJS Function Component",
+            "elements": [
+              {
+                "name": "MyAccount",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "MyAccount.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "MyAccount.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "React JSX",
+            "elements": [
+              {
+                "name": "MyAccount JSX",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Initialisation",
+            "elements": [
+              {
+                "name": "MyAccount.js",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

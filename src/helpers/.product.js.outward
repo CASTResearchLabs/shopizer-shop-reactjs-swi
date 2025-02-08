@@ -1,0 +1,11 @@
+{
+  "main facts about source code file [src/helpers/product.js]": {
+    "00. file [src/helpers/product.js] defines elements relying on elements defined following source files": [
+      {
+        "files": [],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 0
+      }
+    ]
+  }
+}

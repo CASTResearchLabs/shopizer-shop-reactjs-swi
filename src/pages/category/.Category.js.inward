@@ -1,0 +1,86 @@
+{
+  "main facts about source code file [src/pages/category/Category.js]": {
+    "00. source files defining elements dependent on elements defined in file [src/pages/category/Category.js]": [
+      {
+        "files": [
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              },
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 2
+              }
+            ],
+            "from_file": "src/wrappers/product/ShopSidebar.js",
+            "comment": "",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 2
+              },
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/App.js",
+            "comment": "",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/components/product/ShopColor.js",
+            "comment": "",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/components/product/ShopManufacture.js",
+            "comment": "",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/components/product/ShopSize.js",
+            "comment": "",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calling_types": [
+              {
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
+              }
+            ],
+            "from_file": "src/wrappers/product/ShopTopbar.js",
+            "comment": "",
+            "nb_calls_between_elements": 2
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 6
+      }
+    ]
+  }
+}

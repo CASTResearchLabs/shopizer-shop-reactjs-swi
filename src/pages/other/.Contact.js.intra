@@ -1,0 +1,82 @@
+{
+  "main facts about source code file [src/pages/other/Contact.js]": {
+    "00. dependencies between elements defined in file [src/pages/other/Contact.js]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "Contact.js",
+            "to_name": "mapStateToProps",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript Initialisation",
+            "from_name": "Contact.js",
+            "to_name": "Contact.js",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "Contact.js",
+            "to_name": "mapDispatchToProps",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "ReactJS Function Component",
+            "from_name": "Contact.js",
+            "to_name": "Contact",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "ReactJS Function Component",
+            "from_name": "Contact",
+            "to_name": "Contact",
+            "calling_type": "USE"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "Contact JSX",
+            "to_name": "onSubmitContactForm",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Initialisation",
+            "to_type": "JavaScript function",
+            "from_name": "Contact.js",
+            "to_name": "mapStateToProps",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Initialisation",
+            "to_type": "JavaScript function",
+            "from_name": "Contact.js",
+            "to_name": "mapDispatchToProps",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Initialisation",
+            "to_type": "ReactJS Function Component",
+            "from_name": "Contact.js",
+            "to_name": "Contact",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "React JSX",
+            "from_name": "Contact",
+            "to_name": "Contact JSX",
+            "calling_type": "RETURN"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 10
+      }
+    ]
+  }
+}

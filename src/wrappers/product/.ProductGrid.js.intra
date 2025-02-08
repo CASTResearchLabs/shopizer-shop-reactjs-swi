@@ -1,0 +1,89 @@
+{
+  "main facts about source code file [src/wrappers/product/ProductGrid.js]": {
+    "00. dependencies between elements defined in file [src/wrappers/product/ProductGrid.js]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "addToCart",
+            "to_name": "NONAME",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "React JSX",
+            "from_name": "ProductGrid",
+            "to_name": "ProductGrid JSX",
+            "calling_type": "RETURN"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "ProductGrid.js",
+            "to_name": "mapDispatchToProps",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "ProductGrid.js",
+            "to_name": "mapStateToProps",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "ReactJS Function Component",
+            "from_name": "ProductGrid.js",
+            "to_name": "ProductGrid",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript Initialisation",
+            "from_name": "ProductGrid.js",
+            "to_name": "ProductGrid.js",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "ReactJS Function Component",
+            "to_type": "ReactJS Function Component",
+            "from_name": "ProductGrid",
+            "to_name": "ProductGrid",
+            "calling_type": "USE"
+          },
+          {
+            "from_type": "React JSX",
+            "to_type": "JavaScript function",
+            "from_name": "ProductGrid JSX",
+            "to_name": "NONAME",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Initialisation",
+            "to_type": "JavaScript function",
+            "from_name": "ProductGrid.js",
+            "to_name": "mapDispatchToProps",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Initialisation",
+            "to_type": "JavaScript function",
+            "from_name": "ProductGrid.js",
+            "to_name": "mapStateToProps",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Initialisation",
+            "to_type": "ReactJS Function Component",
+            "from_name": "ProductGrid.js",
+            "to_name": "ProductGrid",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 11
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "main facts about source code file [src/pages/other/NotFound.js]": {
+    "00. file [src/pages/other/NotFound.js] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript Files",
+                "to_type": "ReactJS Function Component",
+                "from_name": "NotFound.js",
+                "to_name": "Breadcrumb",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Fragment",
+                "to_type": "ReactJS Function Component",
+                "from_name": "NotFound_fragment_1",
+                "to_name": "Breadcrumb",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "src/wrappers/breadcrumb/Breadcrumb.js"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript Files",
+                "to_type": "ReactJS Function Component",
+                "from_name": "NotFound.js",
+                "to_name": "Layout",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Fragment",
+                "to_type": "ReactJS Function Component",
+                "from_name": "NotFound_fragment_1",
+                "to_name": "Layout",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "src/layouts/Layout.js"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 2
+      }
+    ]
+  }
+}

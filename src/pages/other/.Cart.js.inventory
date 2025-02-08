@@ -1,0 +1,108 @@
+{
+  "main facts about source code file [src/pages/other/Cart.js]": {
+    "00. file [src/pages/other/Cart.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 23,
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "defaultImage",
+                "signature": ""
+              },
+              {
+                "name": "getState",
+                "signature": ""
+              },
+              {
+                "name": "deleteFromCart",
+                "signature": ""
+              },
+              {
+                "name": "increaseQuantity",
+                "signature": ""
+              },
+              {
+                "name": "decreaseQuantity",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "JavaScript HttpRequest Get Service",
+            "elements": [
+              {
+                "name": "checkout",
+                "signature": ""
+              },
+              {
+                "name": "product/{}",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "ReactJS Function Component",
+            "elements": [
+              {
+                "name": "Cart",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "Cart.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "Cart.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "React JSX",
+            "elements": [
+              {
+                "name": "Cart JSX",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Initialisation",
+            "elements": [
+              {
+                "name": "Cart.js",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "main facts about source code file [src/components/contact/LocationMap.js]": {
+    "00. dependencies between elements defined in file [src/components/contact/LocationMap.js]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript Initialisation",
+            "from_name": "LocationMap.js",
+            "to_name": "LocationMap.js",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "LocationMap.js",
+            "to_name": "FooterMap",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Initialisation",
+            "to_type": "JavaScript function",
+            "from_name": "LocationMap.js",
+            "to_name": "FooterMap",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "handleScriptLoad",
+            "to_name": "geocoder_geocode_PARAM_2",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "HTML Fragment",
+            "from_name": "FooterMap",
+            "to_name": "FooterMap_fragment_1",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "FooterMap",
+            "to_name": "handleScriptLoad",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 6
+      }
+    ]
+  }
+}

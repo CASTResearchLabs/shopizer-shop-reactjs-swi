@@ -1,0 +1,11 @@
+{
+  "main facts about source code file [src/components/header/sub-components/MobileSearch.js]": {
+    "00. file [src/components/header/sub-components/MobileSearch.js] defines elements relying on elements defined following source files": [
+      {
+        "files": [],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 0
+      }
+    ]
+  }
+}

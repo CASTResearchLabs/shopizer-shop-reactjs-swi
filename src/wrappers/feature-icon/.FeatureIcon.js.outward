@@ -1,0 +1,40 @@
+{
+  "main facts about source code file [src/wrappers/feature-icon/FeatureIcon.js]": {
+    "00. file [src/wrappers/feature-icon/FeatureIcon.js] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript function",
+                "to_type": "ReactJS Function Component",
+                "from_name": "NONAME",
+                "to_name": "FeatureIconSingle",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "ReactJS Function Component",
+                "to_type": "ReactJS Function Component",
+                "from_name": "FeatureIcon",
+                "to_name": "FeatureIconSingle",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "React JSX",
+                "to_type": "ReactJS Function Component",
+                "from_name": "FeatureIcon JSX",
+                "to_name": "FeatureIconSingle",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 4,
+            "to_file": "src/components/feature-icon/FeatureIconSingle.js"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 1
+      }
+    ]
+  }
+}

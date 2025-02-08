@@ -1,0 +1,26 @@
+{
+  "main facts about source code file [public/index.html]": {
+    "00. dependencies between elements defined in file [public/index.html]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "HTML Pages",
+            "to_type": "JavaScript HttpRequest Get Service",
+            "from_name": "index.html",
+            "to_name": "%PUBLIC_URL%/manifest.json",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "HTML Pages",
+            "to_type": "JavaScript HttpRequest Get Service",
+            "from_name": "index.html",
+            "to_name": "%PUBLIC_URL%/favicon.ico",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 2
+      }
+    ]
+  }
+}
