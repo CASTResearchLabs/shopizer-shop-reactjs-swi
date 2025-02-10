@@ -1,0 +1,110 @@
+{
+  "main facts about application [ssrs]": {
+    "00. application [ssrs] basic stats": {
+      "application_analysis_name": "Onboarding-202502071158",
+      "CRUD_data_access_types": "",
+      "data_sensitivity_levels": [],
+      "nb_source_applications": 0,
+      "nb_elements": 583,
+      "technology_list": [
+        "html",
+        "html templates",
+        "javascript",
+        "reactjs"
+      ],
+      "application_analysis_date": "2025-02-07T11:58:00",
+      "nb_links": 897,
+      "linked_application_stats": {
+        "called_applications": {
+          "nb_applications": 1,
+          "nb_links": 1
+        },
+        "calling_applications": {
+          "nb_applications": 0,
+          "nb_links": 0
+        }
+      }
+    },
+    "01. findings about application [ssrs] main elements": [
+      {
+        "element_findings": [
+          {
+            "nb_findings": 1,
+            "category_findings": [
+              {
+                "finding": "Avoid using querySelectorAll"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Structural Flaw"
+          }
+        ],
+        "nb_findings": 1,
+        "elements": [
+          {
+            "nb_elements": 3,
+            "element_type": "JavaScript function",
+            "elements_with_findings": [
+              {
+                "name": "NONAME",
+                "full_name": "src/components/header/MobileMenu.js.MobileMenu.NONAME"
+              },
+              {
+                "name": "setActiveLayout",
+                "full_name": "src/helpers/product.js.setActiveLayout"
+              },
+              {
+                "name": "setActiveSort",
+                "full_name": "src/helpers/product.js.setActiveSort"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 1,
+            "element_type": "ReactJS Function Component",
+            "elements_with_findings": [
+              {
+                "name": "MobileMenu",
+                "full_name": "src/components/header/MobileMenu.js.MobileMenu"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 1,
+            "category_findings": [
+              {
+                "finding": "CVE-2023-45857"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Vulnerability"
+          }
+        ],
+        "nb_findings": 1,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "JavaScript Files",
+            "elements_with_findings": [
+              {
+                "name": "axios",
+                "full_name": "HTML5_a43b6781.externalLibrary.axios.0.21.4"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      }
+    ]
+  }
+}

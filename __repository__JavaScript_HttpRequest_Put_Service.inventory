@@ -1,0 +1,32 @@
+{
+  "main facts about type [JavaScript HttpRequest Put Service]": {
+    "00. samples of [JavaScript HttpRequest Put Service] element type in application [ssrs]": {
+      "elements": [
+        {
+          "full_name": "src/util/webService.js.WebService.put.put.cart",
+          "signature": "",
+          "name": "cart",
+          "nb_callers": 3,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 0,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/util/webService.js.WebService.put.put.cart/{}",
+          "signature": "",
+          "name": "cart/{}",
+          "nb_callers": 3,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 0,
+          "nb_callees": 0
+        }
+      ],
+      "total_nb": 2,
+      "elements_list_comment": ""
+    }
+  }
+}

@@ -1,0 +1,626 @@
+{
+  "main facts about application [ssrs]": {
+    "00. application [ssrs] basic stats": {
+      "application_analysis_name": "Onboarding-202502071158",
+      "CRUD_data_access_types": "",
+      "data_sensitivity_levels": [],
+      "nb_source_applications": 0,
+      "nb_elements": 583,
+      "technology_list": [
+        "html",
+        "html templates",
+        "javascript",
+        "reactjs"
+      ],
+      "application_analysis_date": "2025-02-07T11:58:00",
+      "nb_links": 897,
+      "linked_application_stats": {
+        "called_applications": {
+          "nb_applications": 1,
+          "nb_links": 1
+        },
+        "calling_applications": {
+          "nb_applications": 0,
+          "nb_links": 0
+        }
+      }
+    },
+    "01. applications whose services are called by application [ssrs]": [
+      {
+        "total_nb_links": 213,
+        "links": [
+          {
+            "technologies": "Javascript to Spring Web Services",
+            "protocol": "HTTP/REST",
+            "from_to": [
+              {
+                "from_element": {
+                  "name": "auth/customer",
+                  "full_name": "src/util/webService.js.WebService.patch.post.auth/customer"
+                },
+                "to_element": {
+                  "name": "api/v1/auth/customer/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerApi.java/api/v1/PORT/ANY/api/v1/auth/customer/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "auth/customer/address",
+                  "full_name": "src/util/webService.js.WebService.patch.post.auth/customer/address"
+                },
+                "to_element": {
+                  "name": "api/v1/auth/customer/address/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerApi.java/api/v1/PORT/ANY/api/v1/auth/customer/address/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "newsletter",
+                  "full_name": "src/util/webService.js.WebService.post.post.newsletter"
+                },
+                "to_element": {
+                  "name": "api/v1/newsletter/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerNewsletterApi.java/api/v1/PORT/POST/api/v1/newsletter/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "product/{}/price",
+                  "full_name": "src/util/webService.js.WebService.post.post.product/{}/price"
+                },
+                "to_element": {
+                  "name": "api/v1/private/product/{}/price/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductPriceApi.java/api/v1/PORT/POST/api/v1/private/product/{}/price/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "cart/{}/promo/{}",
+                  "full_name": "src/util/webService.js.WebService.post.post.cart/{}/promo/{}"
+                },
+                "to_element": {
+                  "name": "api/v1/cart/{}/promo/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shoppingCart/ShoppingCartApi.java/api/v1/PORT/POST/api/v1/cart/{}/promo/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "cart/{}/checkout",
+                  "full_name": "src/util/webService.js.WebService.post.post.cart/{}/checkout"
+                },
+                "to_element": {
+                  "name": "api/v1/cart/{}/checkout/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderApi.java/api/v1/PORT/POST/api/v1/cart/{}/checkout/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "cart/{}/checkout",
+                  "full_name": "src/util/webService.js.WebService.post.post.cart/{}/checkout"
+                },
+                "to_element": {
+                  "name": "api/v1/auth/cart/{}/checkout/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderApi.java/api/v1/PORT/POST/api/v1/auth/cart/{}/checkout/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "auth/cart/{}/checkout",
+                  "full_name": "src/util/webService.js.WebService.post.post.auth/cart/{}/checkout"
+                },
+                "to_element": {
+                  "name": "api/v1/auth/cart/{}/checkout/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderApi.java/api/v1/PORT/POST/api/v1/auth/cart/{}/checkout/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "cart/{}/shipping",
+                  "full_name": "src/util/webService.js.WebService.post.post.cart/{}/shipping"
+                },
+                "to_element": {
+                  "name": "api/v1/cart/{}/shipping/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderShippingApi.java/api/v1/PORT/POST/api/v1/cart/{}/shipping/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "contact",
+                  "full_name": "src/util/webService.js.WebService.post.post.contact"
+                },
+                "to_element": {
+                  "name": "api/v1/contact/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/system/ContactApi.java/api/v1/PORT/POST/api/v1/contact/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "customer/password/reset/request",
+                  "full_name": "src/util/webService.js.WebService.post.post.customer/password/reset/request"
+                },
+                "to_element": {
+                  "name": "api/v1/customer/password/reset/request/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/ResetCustomerPasswordApi.java/api/v1/PORT/POST/api/v1/customer/password/reset/request/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "customer/register",
+                  "full_name": "src/util/webService.js.WebService.post.post.customer/register"
+                },
+                "to_element": {
+                  "name": "api/v1/customer/register/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/AuthenticateCustomerApi.java/api/v1/PORT/POST/api/v1/customer/register/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "customer/login",
+                  "full_name": "src/util/webService.js.WebService.post.post.customer/login"
+                },
+                "to_element": {
+                  "name": "api/v1/customer/login/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/AuthenticateCustomerApi.java/api/v1/PORT/POST/api/v1/customer/login/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "customer/password",
+                  "full_name": "src/util/webService.js.WebService.post.post.customer/password"
+                },
+                "to_element": {
+                  "name": "api/v1/auth/customer/password/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/AuthenticateCustomerApi.java/api/v1/PORT/POST/api/v1/auth/customer/password/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "customer/{}/password/{}",
+                  "full_name": "src/util/webService.js.WebService.post.post.customer/{}/password/{}"
+                },
+                "to_element": {
+                  "name": "api/v1/customer/{}/password/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/ResetCustomerPasswordApi.java/api/v1/PORT/POST/api/v1/customer/{}/password/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "search",
+                  "full_name": "src/util/webService.js.WebService.post.post.search"
+                },
+                "to_element": {
+                  "name": "api/v1/search/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/search/SearchApi.java/api/v1/PORT/POST/api/v1/search/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "cart",
+                  "full_name": "src/util/webService.js.WebService.post.post.cart"
+                },
+                "to_element": {
+                  "name": "api/v1/cart/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shoppingCart/ShoppingCartApi.java/api/v1/PORT/POST/api/v1/cart/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "cart/{}",
+                  "full_name": "src/util/webService.js.WebService.post.post.cart/{}"
+                },
+                "to_element": {
+                  "name": "api/v1/cart/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shoppingCart/ShoppingCartApi.java/api/v1/PORT/POST/api/v1/cart/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "auth/products/{}/reviews",
+                  "full_name": "src/util/webService.js.WebService.post.post.auth/products/{}/reviews"
+                },
+                "to_element": {
+                  "name": "api/v1/auth/products/{}/reviews/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductReviewApi.java/api/v1/PORT/POST/api/v1/auth/products/{}/reviews/_2"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "auth/products/{}/reviews",
+                  "full_name": "src/util/webService.js.WebService.post.post.auth/products/{}/reviews"
+                },
+                "to_element": {
+                  "name": "api/v1/auth/products/{}/reviews/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductReviewApi.java/api/v1/PORT/POST/api/v1/auth/products/{}/reviews/_1"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "auth/products/{}/reviews",
+                  "full_name": "src/util/webService.js.WebService.post.post.auth/products/{}/reviews"
+                },
+                "to_element": {
+                  "name": "api/v1/auth/products/{}/reviews/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductReviewApi.java/api/v1/PORT/POST/api/v1/auth/products/{}/reviews/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "auth/customer",
+                  "full_name": "src/util/webService.js.WebService.delete.delete.auth/customer"
+                },
+                "to_element": {
+                  "name": "api/v1/auth/customer/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerApi.java/api/v1/PORT/ANY/api/v1/auth/customer/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "auth/customer",
+                  "full_name": "src/util/webService.js.WebService.delete.delete.auth/customer"
+                },
+                "to_element": {
+                  "name": "api/v1/auth/customer/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerApi.java/api/v1/PORT/DELETE/api/v1/auth/customer/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "cart/{}/product/{}",
+                  "full_name": "src/util/webService.js.WebService.delete.delete.cart/{}/product/{}"
+                },
+                "to_element": {
+                  "name": "api/v1/cart/{}/product/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shoppingCart/ShoppingCartApi.java/api/v1/PORT/DELETE/api/v1/cart/{}/product/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "content/boxes/headerMessage",
+                  "full_name": "src/util/webService.js.WebService.get.get.content/boxes/headerMessage"
+                },
+                "to_element": {
+                  "name": "api/v1/content/boxes/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/content/ContentApi.java/api/v1/PORT/GET/api/v1/content/boxes/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "content/boxes/headerMessage",
+                  "full_name": "src/util/webService.js.WebService.get.get.content/boxes/headerMessage"
+                },
+                "to_element": {
+                  "name": "api/v1/private/content/boxes/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/content/ContentApi.java/api/v1/PORT/GET/api/v1/private/content/boxes/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "zones",
+                  "full_name": "src/util/webService.js.WebService.get.get.zones"
+                },
+                "to_element": {
+                  "name": "api/v1/zones/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/references/ReferencesApi.java/api/v1/PORT/GET/api/v1/zones/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "category/{}",
+                  "full_name": "src/util/webService.js.WebService.get.get.category/{}"
+                },
+                "to_element": {
+                  "name": "api/v1/category/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/category/CategoryApi.java/api/v1/PORT/GET/api/v1/category/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "category/{}",
+                  "full_name": "src/util/webService.js.WebService.get.get.category/{}"
+                },
+                "to_element": {
+                  "name": "api/v2/products/category/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/GET/api/v2/products/category/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "category/{}",
+                  "full_name": "src/util/webService.js.WebService.get.get.category/{}"
+                },
+                "to_element": {
+                  "name": "api/v1/private/category/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/category/CategoryApi.java/api/v1/PORT/GET/api/v1/private/category/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "products",
+                  "full_name": "src/util/webService.js.WebService.get.get.products"
+                },
+                "to_element": {
+                  "name": "api/v2/products/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/GET/api/v2/products/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "products",
+                  "full_name": "src/util/webService.js.WebService.get.get.products"
+                },
+                "to_element": {
+                  "name": "api/v1/products/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductApi.java/api/v1/PORT/GET/api/v1/products/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "content/pages/{}",
+                  "full_name": "src/util/webService.js.WebService.get.get.content/pages/{}"
+                },
+                "to_element": {
+                  "name": "api/v1/content/pages/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/content/ContentApi.java/api/v1/PORT/GET/api/v1/content/pages/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "content/boxes/agreement",
+                  "full_name": "src/util/webService.js.WebService.get.get.content/boxes/agreement"
+                },
+                "to_element": {
+                  "name": "api/v1/content/boxes/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/content/ContentApi.java/api/v1/PORT/GET/api/v1/content/boxes/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "content/boxes/agreement",
+                  "full_name": "src/util/webService.js.WebService.get.get.content/boxes/agreement"
+                },
+                "to_element": {
+                  "name": "api/v1/private/content/boxes/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/content/ContentApi.java/api/v1/PORT/GET/api/v1/private/content/boxes/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "cart/{}/total",
+                  "full_name": "src/util/webService.js.WebService.get.get.cart/{}/total"
+                },
+                "to_element": {
+                  "name": "api/v1/cart/{}/total/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderTotalApi.java/api/v1/PORT/GET/api/v1/cart/{}/total/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "cart/{}/total",
+                  "full_name": "src/util/webService.js.WebService.get.get.cart/{}/total"
+                },
+                "to_element": {
+                  "name": "api/v1/auth/cart/{}/total/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderTotalApi.java/api/v1/PORT/GET/api/v1/auth/cart/{}/total/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "cart/{}/total",
+                  "full_name": "src/util/webService.js.WebService.get.get.cart/{}/total"
+                },
+                "to_element": {
+                  "name": "api/v1/cart/{}/total/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderTotalApi.java/api/v1/PORT/GET/api/v1/cart/{}/total/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "cart/{}/total",
+                  "full_name": "src/util/webService.js.WebService.get.get.cart/{}/total"
+                },
+                "to_element": {
+                  "name": "api/v1/auth/cart/{}/total/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderTotalApi.java/api/v1/PORT/GET/api/v1/auth/cart/{}/total/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "cart/{}/total",
+                  "full_name": "src/util/webService.js.WebService.get.get.cart/{}/total"
+                },
+                "to_element": {
+                  "name": "api/v1/cart/{}/total/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderTotalApi.java/api/v1/PORT/GET/api/v1/cart/{}/total/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "cart/{}/total",
+                  "full_name": "src/util/webService.js.WebService.get.get.cart/{}/total"
+                },
+                "to_element": {
+                  "name": "api/v1/auth/cart/{}/total/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderTotalApi.java/api/v1/PORT/GET/api/v1/auth/cart/{}/total/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "config",
+                  "full_name": "src/util/webService.js.WebService.get.get.config"
+                },
+                "to_element": {
+                  "name": "api/v1/config/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/system/PublicConfigsApi.java/api/v1/PORT/GET/api/v1/config/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "auth/customer/profile",
+                  "full_name": "src/util/webService.js.WebService.get.get.auth/customer/profile"
+                },
+                "to_element": {
+                  "name": "api/v1/auth/customer/profile/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerApi.java/api/v1/PORT/GET/api/v1/auth/customer/profile/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "auth/orders/{}",
+                  "full_name": "src/util/webService.js.WebService.get.get.auth/orders/{}"
+                },
+                "to_element": {
+                  "name": "api/v1/auth/orders/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderApi.java/api/v1/PORT/GET/api/v1/auth/orders/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "auth/orders",
+                  "full_name": "src/util/webService.js.WebService.get.get.auth/orders"
+                },
+                "to_element": {
+                  "name": "api/v1/auth/orders/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderApi.java/api/v1/PORT/GET/api/v1/auth/orders/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "customer/{}/reset/{}",
+                  "full_name": "src/util/webService.js.WebService.get.get.customer/{}/reset/{}"
+                },
+                "to_element": {
+                  "name": "api/v1/customer/{}/reset/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/ResetCustomerPasswordApi.java/api/v1/PORT/GET/api/v1/customer/{}/reset/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "products/{}",
+                  "full_name": "src/util/webService.js.WebService.get.get.products/{}"
+                },
+                "to_element": {
+                  "name": "api/v2/products/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/GET/api/v2/products/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "products/{}",
+                  "full_name": "src/util/webService.js.WebService.get.get.products/{}"
+                },
+                "to_element": {
+                  "name": "api/v1/products/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductApi.java/api/v1/PORT/GET/api/v1/products/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "cart/{}",
+                  "full_name": "src/util/webService.js.WebService.get.get.cart/{}"
+                },
+                "to_element": {
+                  "name": "api/v1/cart/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shoppingCart/ShoppingCartApi.java/api/v1/PORT/GET/api/v1/cart/{}/"
+                }
+              },
+              {
+                "from_element": {
+                  "name": "cart/{}",
+                  "full_name": "src/util/webService.js.WebService.get.get.cart/{}"
+                },
+                "to_element": {
+                  "name": "api/v1/cart/{}/",
+                  "full_name": "c:/CAST-node/common-data/upload/s325s/main_sources/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shoppingCart/ShoppingCartApi.java/api/v1/PORT/GET/api/v1/cart/{}/"
+                }
+              }
+            ],
+            "from_to_list_comment": "from/to list is truncated to first 50 items"
+          }
+        ],
+        "links_list_comment": "link list is truncated to first 50 items",
+        "called_application": "s325s"
+      }
+    ],
+    "02. findings about application [ssrs] main elements": [
+      {
+        "element_findings": [
+          {
+            "nb_findings": 1,
+            "category_findings": [
+              {
+                "finding": "Avoid using querySelectorAll"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Structural Flaw"
+          }
+        ],
+        "nb_findings": 1,
+        "elements": [
+          {
+            "nb_elements": 3,
+            "element_type": "JavaScript function",
+            "elements_with_findings": [
+              {
+                "name": "NONAME",
+                "full_name": "src/components/header/MobileMenu.js.MobileMenu.NONAME"
+              },
+              {
+                "name": "setActiveLayout",
+                "full_name": "src/helpers/product.js.setActiveLayout"
+              },
+              {
+                "name": "setActiveSort",
+                "full_name": "src/helpers/product.js.setActiveSort"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 1,
+            "element_type": "ReactJS Function Component",
+            "elements_with_findings": [
+              {
+                "name": "MobileMenu",
+                "full_name": "src/components/header/MobileMenu.js.MobileMenu"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 1,
+            "category_findings": [
+              {
+                "finding": "CVE-2023-45857"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Vulnerability"
+          }
+        ],
+        "nb_findings": 1,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "JavaScript Files",
+            "elements_with_findings": [
+              {
+                "name": "axios",
+                "full_name": "HTML5_a43b6781.externalLibrary.axios.0.21.4"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      }
+    ]
+  }
+}

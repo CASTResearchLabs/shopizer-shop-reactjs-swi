@@ -1,0 +1,175 @@
+{
+  "main facts about type [JavaScript HttpRequest Get Service]": {
+    "00. samples of [JavaScript HttpRequest Get Service] element type in application [ssrs]": {
+      "elements": [
+        {
+          "full_name": "src/util/webService.js.WebService.get.get.auth/customer/profile",
+          "signature": "",
+          "name": "auth/customer/profile",
+          "nb_callers": 7,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/util/webService.js.WebService.get.get.cart/{}",
+          "signature": "",
+          "name": "cart/{}",
+          "nb_callers": 6,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/util/webService.js.WebService.get.get.auth/customer/cart",
+          "signature": "",
+          "name": "auth/customer/cart",
+          "nb_callers": 5,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/util/webService.js.WebService.get.get.zones",
+          "signature": "",
+          "name": "zones",
+          "nb_callers": 5,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 0,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/util/webService.js.WebService.get.get.cart/{}/total",
+          "signature": "",
+          "name": "cart/{}/total",
+          "nb_callers": 3,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/util/webService.js.WebService.get.get.cart/{}/total",
+          "signature": "",
+          "name": "cart/{}/total",
+          "nb_callers": 3,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/util/webService.js.WebService.get.get.cart/{}/total",
+          "signature": "",
+          "name": "cart/{}/total",
+          "nb_callers": 3,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/components/header/NavMenu.js.NavMenu.NONAME.NONAME_2.category/{}",
+          "signature": "",
+          "name": "category/{}",
+          "nb_callers": 3,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/components/header/NavMenu.js.NavMenu.NONAME.category/{}",
+          "signature": "",
+          "name": "category/{}",
+          "nb_callers": 3,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/components/header/sub-components/MobileNavMenu.js.MobileNavMenu.NONAME.NONAME_2.category/{}",
+          "signature": "",
+          "name": "category/{}",
+          "nb_callers": 3,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/components/header/sub-components/MobileNavMenu.js.MobileNavMenu.NONAME.category/{}",
+          "signature": "",
+          "name": "category/{}",
+          "nb_callers": 3,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/util/webService.js.WebService.get.get.config",
+          "signature": "",
+          "name": "config",
+          "nb_callers": 3,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/components/header/NavMenu.js.NavMenu.NONAME_2.content/{}",
+          "signature": "",
+          "name": "content/{}",
+          "nb_callers": 3,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/components/header/sub-components/MobileNavMenu.js.MobileNavMenu.NONAME_2.content/{}",
+          "signature": "",
+          "name": "content/{}",
+          "nb_callers": 3,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/components/header/sub-components/MenuCart.js.MenuCart.NONAME.product/{}",
+          "signature": "",
+          "name": "product/{}",
+          "nb_callers": 3,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        }
+      ],
+      "total_nb": 86,
+      "elements_list_comment": "JavaScript HttpRequest Get Service element list is truncated to first 15 items"
+    }
+  }
+}

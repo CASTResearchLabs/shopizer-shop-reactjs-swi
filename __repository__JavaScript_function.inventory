@@ -1,0 +1,288 @@
+{
+  "main facts about type [JavaScript function]": {
+    "00. samples of [JavaScript function] element type in application [ssrs]": {
+      "elements": [
+        {
+          "full_name": "src/pages/other/Checkout.js.Checkout",
+          "signature": "",
+          "name": "Checkout",
+          "nb_callers": 1,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "596"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            },
+            {
+              "property": "Number of Commented Code Lines",
+              "value": "8"
+            }
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 19
+        },
+        {
+          "full_name": "src/redux/actions/cartActions.js.addToCart.NONAME",
+          "signature": "",
+          "name": "NONAME",
+          "nb_callers": 6,
+          "main_properties": [
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "8"
+            }
+          ],
+          "used_in_graphs": 0,
+          "nb_callees": 13
+        },
+        {
+          "full_name": "src/redux/actions/cartActions.js.addToCart",
+          "signature": "",
+          "name": "addToCart",
+          "nb_callers": 11,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "2"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "used_in_graphs": 0,
+          "nb_callees": 12
+        },
+        {
+          "full_name": "src/helpers/product.js.getSortedProducts",
+          "signature": "",
+          "name": "getSortedProducts",
+          "nb_callers": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "33"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "12"
+            }
+          ],
+          "used_in_graphs": 0,
+          "nb_callees": 8
+        },
+        {
+          "full_name": "src/components/footer/sub-components/SubscribeEmail.js.CustomForm",
+          "signature": "",
+          "name": "CustomForm",
+          "nb_callers": 2,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "52"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "5"
+            }
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 3
+        },
+        {
+          "full_name": "src/redux/actions/cartActions.js.getCart.NONAME",
+          "signature": "",
+          "name": "NONAME",
+          "nb_callers": 5,
+          "main_properties": [
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "6"
+            }
+          ],
+          "used_in_graphs": 0,
+          "nb_callees": 10
+        },
+        {
+          "full_name": "src/components/newsletter/SubscribeEmail.js.CustomForm",
+          "signature": "",
+          "name": "CustomForm",
+          "nb_callers": 2,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "46"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "5"
+            }
+          ],
+          "used_in_graphs": 0,
+          "nb_callees": 3
+        },
+        {
+          "full_name": "src/redux/actions/cartActions.js.getCart",
+          "signature": "",
+          "name": "getCart",
+          "nb_callers": 8,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "2"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "used_in_graphs": 0,
+          "nb_callees": 10
+        },
+        {
+          "full_name": "src/pages/other/Cart.js.Cart.NONAME_3",
+          "signature": "",
+          "name": "NONAME_3",
+          "nb_callers": 1,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "34"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            },
+            {
+              "property": "Number of Commented Code Lines",
+              "value": "4"
+            }
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 6
+        },
+        {
+          "full_name": "src/pages/other/LoginRegister.js.mapDispatchToProps",
+          "signature": "",
+          "name": "mapDispatchToProps",
+          "nb_callers": 2,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "12"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "used_in_graphs": 0,
+          "nb_callees": 7
+        },
+        {
+          "full_name": "src/components/header/sub-components/MenuCart.js.MenuCart.NONAME",
+          "signature": "",
+          "name": "NONAME",
+          "nb_callers": 1,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "27"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            },
+            {
+              "property": "Number of Commented Code Lines",
+              "value": "11"
+            }
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 4
+        },
+        {
+          "full_name": "src/util/helper.js.setLocalData",
+          "signature": "",
+          "name": "setLocalData",
+          "nb_callers": 14,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "6"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "3"
+            },
+            {
+              "property": "Number of Commented Code Lines",
+              "value": "1"
+            }
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/redux/actions/loaderActions.js.setLoader",
+          "signature": "",
+          "name": "setLoader",
+          "nb_callers": 37,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "2"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/redux/reducers/cartReducer.js.cartReducer",
+          "signature": "",
+          "name": "cartReducer",
+          "nb_callers": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "54"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "7"
+            },
+            {
+              "property": "Number of Commented Code Lines",
+              "value": "8"
+            }
+          ],
+          "used_in_graphs": 0,
+          "nb_callees": 2
+        },
+        {
+          "full_name": "src/pages/other/Checkout.js.Checkout.onChangeShipping",
+          "signature": "",
+          "name": "onChangeShipping",
+          "nb_callers": 7,
+          "main_properties": [
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "6"
+            }
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 3
+        }
+      ],
+      "total_nb": 644,
+      "elements_list_comment": "JavaScript function element list is truncated to first 15 items"
+    }
+  }
+}

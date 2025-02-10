@@ -1,0 +1,32 @@
+{
+  "main facts about type [JavaScript HttpRequest Delete Service]": {
+    "00. samples of [JavaScript HttpRequest Delete Service] element type in application [ssrs]": {
+      "elements": [
+        {
+          "full_name": "src/util/webService.js.WebService.delete.delete.auth/customer",
+          "signature": "",
+          "name": "auth/customer",
+          "nb_callers": 2,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/util/webService.js.WebService.delete.delete.cart/{}/product/{}",
+          "signature": "",
+          "name": "cart/{}/product/{}",
+          "nb_callers": 3,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 0,
+          "nb_callees": 0
+        }
+      ],
+      "total_nb": 2,
+      "elements_list_comment": ""
+    }
+  }
+}

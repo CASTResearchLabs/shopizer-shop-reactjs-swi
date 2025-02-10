@@ -1,0 +1,270 @@
+{
+  "main facts about application [ssrs]": {
+    "00. application [ssrs] basic stats": {
+      "application_analysis_name": "Onboarding-202502071158",
+      "CRUD_data_access_types": "",
+      "data_sensitivity_levels": [],
+      "nb_source_applications": 0,
+      "nb_elements": 583,
+      "technology_list": [
+        "html",
+        "html templates",
+        "javascript",
+        "reactjs"
+      ],
+      "application_analysis_date": "2025-02-07T11:58:00",
+      "nb_links": 897,
+      "linked_application_stats": {
+        "called_applications": {
+          "nb_applications": 1,
+          "nb_links": 1
+        },
+        "calling_applications": {
+          "nb_applications": 0,
+          "nb_links": 0
+        }
+      }
+    },
+    "01. application [ssrs] graphs representing semantic aggregations": [
+      {
+        "nb_graphs": 33,
+        "samples_list_comment": "",
+        "graph_nature": "Package",
+        "samples": [
+          {
+            "name": "react-load-script",
+            "starting_element_type": ""
+          },
+          {
+            "name": "prop-types",
+            "starting_element_type": ""
+          },
+          {
+            "name": "react-app-polyfill",
+            "starting_element_type": ""
+          },
+          {
+            "name": "google-maps-react",
+            "starting_element_type": ""
+          },
+          {
+            "name": "redux",
+            "starting_element_type": ""
+          },
+          {
+            "name": "react-router-dom",
+            "starting_element_type": ""
+          },
+          {
+            "name": "react-hook-form",
+            "starting_element_type": ""
+          },
+          {
+            "name": "redux-thunk",
+            "starting_element_type": ""
+          },
+          {
+            "name": "react",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@stripe/react-stripe-js",
+            "starting_element_type": ""
+          },
+          {
+            "name": "axios",
+            "starting_element_type": ""
+          },
+          {
+            "name": "react-toast-notifications",
+            "starting_element_type": ""
+          },
+          {
+            "name": "react-redux",
+            "starting_element_type": ""
+          },
+          {
+            "name": "react-geocode",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@stripe/stripe-js",
+            "starting_element_type": ""
+          },
+          {
+            "name": "react-dom",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@stripe/react-stripe-js",
+            "starting_element_type": ""
+          },
+          {
+            "name": "@stripe/stripe-js",
+            "starting_element_type": ""
+          },
+          {
+            "name": "axios",
+            "starting_element_type": ""
+          },
+          {
+            "name": "google-maps-react",
+            "starting_element_type": ""
+          },
+          {
+            "name": "prop-types",
+            "starting_element_type": ""
+          },
+          {
+            "name": "react",
+            "starting_element_type": ""
+          },
+          {
+            "name": "react-app-polyfill",
+            "starting_element_type": ""
+          },
+          {
+            "name": "react-dom",
+            "starting_element_type": ""
+          },
+          {
+            "name": "react-geocode",
+            "starting_element_type": ""
+          },
+          {
+            "name": "react-hook-form",
+            "starting_element_type": ""
+          },
+          {
+            "name": "react-load-script",
+            "starting_element_type": ""
+          },
+          {
+            "name": "react-redux",
+            "starting_element_type": ""
+          },
+          {
+            "name": "react-router-dom",
+            "starting_element_type": ""
+          },
+          {
+            "name": "react-toast-notifications",
+            "starting_element_type": ""
+          },
+          {
+            "name": "redux",
+            "starting_element_type": ""
+          },
+          {
+            "name": "redux-devtools-extension",
+            "starting_element_type": ""
+          },
+          {
+            "name": "redux-thunk",
+            "starting_element_type": ""
+          }
+        ]
+      },
+      {
+        "nb_graphs": 2,
+        "samples_list_comment": "",
+        "graph_nature": "Transaction",
+        "samples": [
+          {
+            "name": "src",
+            "full_name": "src/index.js.CAST_ReactJS_Application.src",
+            "starting_element_type": "ReactJS Application",
+            "size": 278
+          },
+          {
+            "name": "index.html",
+            "full_name": "public/index.html",
+            "starting_element_type": "HTML Pages",
+            "size": 4
+          }
+        ]
+      }
+    ],
+    "02. findings about application [ssrs] main elements": [
+      {
+        "element_findings": [
+          {
+            "nb_findings": 1,
+            "category_findings": [
+              {
+                "finding": "Avoid using querySelectorAll"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Structural Flaw"
+          }
+        ],
+        "nb_findings": 1,
+        "elements": [
+          {
+            "nb_elements": 3,
+            "element_type": "JavaScript function",
+            "elements_with_findings": [
+              {
+                "name": "NONAME",
+                "full_name": "src/components/header/MobileMenu.js.MobileMenu.NONAME"
+              },
+              {
+                "name": "setActiveLayout",
+                "full_name": "src/helpers/product.js.setActiveLayout"
+              },
+              {
+                "name": "setActiveSort",
+                "full_name": "src/helpers/product.js.setActiveSort"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 1,
+            "element_type": "ReactJS Function Component",
+            "elements_with_findings": [
+              {
+                "name": "MobileMenu",
+                "full_name": "src/components/header/MobileMenu.js.MobileMenu"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 1,
+            "category_findings": [
+              {
+                "finding": "CVE-2023-45857"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Vulnerability"
+          }
+        ],
+        "nb_findings": 1,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "JavaScript Files",
+            "elements_with_findings": [
+              {
+                "name": "axios",
+                "full_name": "HTML5_a43b6781.externalLibrary.axios.0.21.4"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      }
+    ]
+  }
+}

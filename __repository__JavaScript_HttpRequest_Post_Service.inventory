@@ -1,0 +1,175 @@
+{
+  "main facts about type [JavaScript HttpRequest Post Service]": {
+    "00. samples of [JavaScript HttpRequest Post Service] element type in application [ssrs]": {
+      "elements": [
+        {
+          "full_name": "src/util/webService.js.WebService.post.post.newsletter",
+          "signature": "",
+          "name": "newsletter",
+          "nb_callers": 4,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/util/webService.js.WebService.post.post.product/{}/price",
+          "signature": "",
+          "name": "product/{}/price",
+          "nb_callers": 4,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/util/webService.js.WebService.patch.post.auth/customer/address",
+          "signature": "",
+          "name": "auth/customer/address",
+          "nb_callers": 3,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/util/webService.js.WebService.post.post.cart/{}/shipping",
+          "signature": "",
+          "name": "cart/{}/shipping",
+          "nb_callers": 3,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/util/webService.js.WebService.post.post.auth/cart/{}/checkout",
+          "signature": "",
+          "name": "auth/cart/{}/checkout",
+          "nb_callers": 3,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 0,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/util/webService.js.WebService.patch.post.auth/customer",
+          "signature": "",
+          "name": "auth/customer",
+          "nb_callers": 2,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/util/webService.js.WebService.post.post.cart",
+          "signature": "",
+          "name": "cart",
+          "nb_callers": 3,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 0,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/util/webService.js.WebService.post.post.cart/{}",
+          "signature": "",
+          "name": "cart/{}",
+          "nb_callers": 3,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 0,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/util/webService.js.WebService.post.post.cart/{}/checkout",
+          "signature": "",
+          "name": "cart/{}/checkout",
+          "nb_callers": 3,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 0,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/util/webService.js.WebService.post.post.cart/{}/promo/{}",
+          "signature": "",
+          "name": "cart/{}/promo/{}",
+          "nb_callers": 2,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/util/webService.js.WebService.post.post.contact",
+          "signature": "",
+          "name": "contact",
+          "nb_callers": 2,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/util/webService.js.WebService.post.post.customer/login",
+          "signature": "",
+          "name": "customer/login",
+          "nb_callers": 2,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/util/webService.js.WebService.post.post.customer/password",
+          "signature": "",
+          "name": "customer/password",
+          "nb_callers": 2,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/util/webService.js.WebService.post.post.customer/password/reset/request",
+          "signature": "",
+          "name": "customer/password/reset/request",
+          "nb_callers": 2,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        },
+        {
+          "full_name": "src/util/webService.js.WebService.post.post.customer/register",
+          "signature": "",
+          "name": "customer/register",
+          "nb_callers": 2,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 0
+        }
+      ],
+      "total_nb": 18,
+      "elements_list_comment": "JavaScript HttpRequest Post Service element list is truncated to first 15 items"
+    }
+  }
+}
